@@ -8,6 +8,13 @@
   imports =
     [ # Include the results of the hardware scan.
       /etc/nixos/hardware-configuration.nix
+      ./modules/locale.nix
+      ./modules/users.nix
+      ./modules/base.nix
+      ./modules/plasma5.nix
+      ./modules/coding.nix
+      ./modules/mullvad.nix
+      ./modules/media.nix
     ];
 
   # Bootloader.
@@ -27,36 +34,13 @@
   # Set your time zone.
   time.timeZone = "Europe/Helsinki";
 
-  # Select internationalisation properties.
-  i18n.defaultLocale = "en_GB.UTF-8";
-
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "fi_FI.UTF-8";
-    LC_IDENTIFICATION = "fi_FI.UTF-8";
-    LC_MEASUREMENT = "fi_FI.UTF-8";
-    LC_MONETARY = "fi_FI.UTF-8";
-    LC_NAME = "fi_FI.UTF-8";
-    LC_NUMERIC = "fi_FI.UTF-8";
-    LC_PAPER = "fi_FI.UTF-8";
-    LC_TELEPHONE = "fi_FI.UTF-8";
-    LC_TIME = "fi_FI.UTF-8";
-  };
-
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
   services.xserver.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.plasma5.enable = true;
-
-  # Configure keymap in X11
-  services.xserver = {
-    layout = "fi";
-    xkbVariant = "";
-  };
-
-  # Configure console keymap
-  console.keyMap = "fi";
+  #services.xserver.displayManager.defaultSession = "plasmawayland";
+  services.xserver.displayManager.sddm.wayland.enable = true;
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -81,46 +65,6 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.niklas = {
-    isNormalUser = true;
-    description = "Niklas Schönberg";
-    extraGroups = [ "networkmanager" "wheel" ];
-    shell = pkgs.nushell;
-    packages = with pkgs; [
-      kate
-    #  thunderbird
-    ];
-  };
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    micro
-    librewolf  
-    vim 
-    wget
-	mpv
-	protonup-qt
-	wezterm
-	signal-desktop
-	starship
-	eza
-	lazygit
-	git
-  ];
-
-  programs.steam = {
-    enable = true;
-    remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
-    gamescopeSession.enable = false;
-  };
-
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -134,9 +78,6 @@
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
 
-  services.xserver.displayManager.defaultSession = "plasmawayland";
-  services.xserver.displayManager.sddm.wayland.enable = true;
-  
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];

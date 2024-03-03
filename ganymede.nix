@@ -9,6 +9,13 @@
     [ # Include the results of the hardware scan.
       /etc/nixos/hardware-configuration.nix
       ./modules/locale.nix
+      ./modules/users.nix
+      ./modules/base.nix
+      ./modules/hyprland.nix
+      ./modules/plasma.nix
+      ./modules/coding.nix
+      ./modules/mullvad.nix
+      ./modules/media.nix
     ];
 
   # Bootloader.
@@ -28,21 +35,6 @@
   # Set your time zone.
   time.timeZone = "Europe/Helsinki";
 
-  # Select internationalisation properties.
-  i18n.defaultLocale = "en_GB.UTF-8";
-
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "sv_FI.UTF-8";
-    LC_IDENTIFICATION = "sv_FI.UTF-8";
-    LC_MEASUREMENT = "sv_FI.UTF-8";
-    LC_MONETARY = "sv_FI.UTF-8";
-    LC_NAME = "sv_FI.UTF-8";
-    LC_NUMERIC = "sv_FI.UTF-8";
-    LC_PAPER = "sv_FI.UTF-8";
-    LC_TELEPHONE = "sv_FI.UTF-8";
-    LC_TIME = "sv_FI.UTF-8";
-  };
-
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
@@ -50,19 +42,6 @@
   services.xserver.displayManager.sddm.enable = true;
   #services.xserver.displayManager.defaultSession = "plasmawayland";
   services.xserver.displayManager.sddm.wayland.enable = true;
-  #services.xserver.desktopManager.plasma5.enable = true;
-  services.xserver.desktopManager.plasma6.enable = true;
-
-  programs.hyprland.enable = true;
-
-  # Configure keymap in X11
-  services.xserver = {
-    xkb.layout = "fi";
-    xkb.variant = "";
-  };
-
-  # Configure console keymap
-  console.keyMap = "fi";
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -87,54 +66,6 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.niklas = {
-    isNormalUser = true;
-    description = "Niklas Schönberg";
-    extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      #firefox
-      #kate
-      #thunderbird
-    ];
-  };
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-	  git
-    micro
-    vim
-    wget
-    mpv
-    librewolf
-    starship
-    wezterm
-    waybar
-    dex
-    fuzzel
-    hyprpaper
-    hypridle
-    hyprlock
-    mako
-    foot
-    networkmanagerapplet
-    swayosd
-    pavucontrol
-    aw-server-rust
-    aw-qt
-    mullvad-vpn
-    mullvad-browser
-    transmission-gtk
-    wlogout
-    nerdfonts
-    nodejs_21
-    vscodium
-  ];
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -146,9 +77,7 @@
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
-  services.openssh.enable = true;
-
-  services.mullvad-vpn.enable = true;
+  # services.openssh.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
