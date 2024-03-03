@@ -15,6 +15,7 @@
       ./modules/coding.nix
       ./modules/mullvad.nix
       ./modules/media.nix
+      ./modules/gaming.nix
     ];
 
   # Bootloader.

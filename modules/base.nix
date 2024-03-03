@@ -11,10 +11,12 @@
     vim
     wget
     librewolf
+    nerdfonts
     starship
     signal-desktop
     aw-server-rust
     aw-qt
+    wezterm
  ];
 }
 
