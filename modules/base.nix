@@ -11,6 +11,7 @@
     vim
     wget
     librewolf
+    thunderbird
     nerdfonts
     starship
     signal-desktop
