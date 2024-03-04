@@ -5,7 +5,7 @@
   users.users.niklas = {
     isNormalUser = true;
     description = "Niklas Schönberg";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
       #firefox
       #kate
