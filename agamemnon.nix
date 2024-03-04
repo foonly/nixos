@@ -45,6 +45,7 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
+  services.printing.drivers = [ pkgs.samsung-unified-linux-driver ];
 
   # Enable sound with pipewire.
   sound.enable = true;
