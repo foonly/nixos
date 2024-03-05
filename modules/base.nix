@@ -10,6 +10,8 @@
     micro
     vim
     wget
+    eza
+    dig
     librewolf
     thunderbird
     nerdfonts

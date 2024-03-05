@@ -7,6 +7,7 @@
     waybar
     dex
     fuzzel
+    wofi
     hyprpaper
     hypridle
     hyprlock
@@ -16,6 +17,9 @@
     pavucontrol
     wlogout
     nerdfonts
+	nwg-look
+	libsForQt5.qt5ct
+	qt6Packages.qt6ct
   ];
 
 }
