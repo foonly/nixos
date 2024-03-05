@@ -10,8 +10,6 @@
 
   environment.systemPackages = with pkgs; [
     protonup-qt
-    mumble
-    webcord
   ];
 
 }

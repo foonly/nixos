@@ -16,11 +16,10 @@
     thunderbird
     nerdfonts
     starship
-    signal-desktop
-    telegram-desktop
     aw-server-rust
     aw-qt
     wezterm
+    killall
  ];
 }
 

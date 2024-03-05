@@ -8,6 +8,7 @@
     lazygit
     nodejs_21
     vscodium
+    dbeaver
   ];
 
 }

@@ -6,7 +6,7 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
       /etc/nixos/hardware-configuration.nix
       ./modules/locale.nix
       ./modules/users.nix
@@ -16,6 +16,8 @@
       ./modules/coding.nix
       ./modules/mullvad.nix
       ./modules/media.nix
+      ./modules/files.nix
+      ./modules/messenger.nix
     ];
 
   # Bootloader.
@@ -39,9 +41,9 @@
   services.xserver.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  #services.xserver.displayManager.defaultSession = "plasmawayland";
-  #services.xserver.displayManager.sddm.wayland.enable = true;
+  services.xserver.displayManager.sddm.enable = true;
+  # services.xserver.displayManager.defaultSession = "plasmawayland";
+  services.xserver.displayManager.sddm.wayland.enable = true;
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -73,6 +75,7 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
+  programs.ssh.startAgent = true;
 
   # List services that you want to enable:
 

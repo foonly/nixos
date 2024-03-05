@@ -10,7 +10,7 @@
     wofi
     hyprpaper
     hypridle
-    hyprlock
+    swaylock
     mako
     networkmanagerapplet
     swayosd
