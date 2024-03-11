@@ -6,11 +6,10 @@
   environment.systemPackages = with pkgs; [
     waybar
     dex
-    fuzzel
     wofi
     hyprpaper
     hypridle
-    swaylock
+    hyprlock
     mako
     networkmanagerapplet
     swayosd
@@ -20,6 +19,9 @@
 	nwg-look
 	libsForQt5.qt5ct
 	qt6Packages.qt6ct
+	wl-clipboard
+	clipman
+	grimblast
   ];
 
 }

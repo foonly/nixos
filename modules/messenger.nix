@@ -6,6 +6,7 @@
     webcord
     signal-desktop
     telegram-desktop
+    whatsapp-for-linux
   ];
 
 }

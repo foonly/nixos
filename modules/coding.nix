@@ -6,9 +6,11 @@
   environment.systemPackages = with pkgs; [
     git
     lazygit
-    nodejs_21
+    nodejs_20
+    corepack
     vscodium
     dbeaver
+    php83Packages.composer
   ];
 
 }

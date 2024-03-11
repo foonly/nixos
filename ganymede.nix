@@ -18,6 +18,8 @@
       ./modules/media.nix
       ./modules/files.nix
       ./modules/messenger.nix
+      ./modules/graphics.nix
+      ./modules/greetd.nix
     ];
 
   # Bootloader.
@@ -34,6 +36,11 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  #networking.extraHosts =
+  #  ''
+  #    65.108.199.45 kehitys.jcore.fi
+  #  '';
+
   # Set your time zone.
   time.timeZone = "Europe/Helsinki";
 
@@ -41,9 +48,9 @@
   services.xserver.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.sddm.enable = true;
+  #services.xserver.displayManager.sddm.enable = true;
   # services.xserver.displayManager.defaultSession = "plasmawayland";
-  services.xserver.displayManager.sddm.wayland.enable = true;
+  #services.xserver.displayManager.sddm.wayland.enable = true;
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -75,7 +82,6 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-  programs.ssh.startAgent = true;
 
   # List services that you want to enable:
 
