@@ -27,5 +27,6 @@
     killall
     whois
     alejandra
+    libnotify
   ];
 }
