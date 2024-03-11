@@ -5,6 +5,8 @@
 }: {
   programs.hyprland.enable = true;
 
+  security.pam.services.greetd.enableKwallet = true;
+
   environment.systemPackages = with pkgs; [
     waybar
     dex
@@ -24,6 +26,5 @@
     wl-clipboard
     clipman
     grimblast
-    gnome.seahorse
   ];
 }
