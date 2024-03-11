@@ -1,8 +1,10 @@
-{ config, pkgs, ... }:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   programs.hyprland.enable = true;
-  
+
   environment.systemPackages = with pkgs; [
     waybar
     dex
@@ -16,12 +18,12 @@
     pavucontrol
     wlogout
     nerdfonts
-	nwg-look
-	libsForQt5.qt5ct
-	qt6Packages.qt6ct
-	wl-clipboard
-	clipman
-	grimblast
+    nwg-look
+    libsForQt5.qt5ct
+    qt6Packages.qt6ct
+    wl-clipboard
+    clipman
+    grimblast
+    gnome.seahorse
   ];
-
 }

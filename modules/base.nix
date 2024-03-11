@@ -1,6 +1,8 @@
-{ config, pkgs, ... }:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -24,7 +26,6 @@
     wezterm
     killall
     whois
- ];
+    alejandra
+  ];
 }
-
- 

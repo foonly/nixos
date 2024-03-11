@@ -1,6 +1,8 @@
-{ config, pkgs, ... }:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   # Select internationalisation properties.
   i18n.defaultLocale = "en_GB.UTF-8";
 
@@ -24,5 +26,4 @@
 
   # Configure console keymap
   console.keyMap = "fi";
-
 }

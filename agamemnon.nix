@@ -1,22 +1,23 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-
-{ config, pkgs, ... }:
-
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      /etc/nixos/hardware-configuration.nix
-      ./modules/locale.nix
-      ./modules/users.nix
-      ./modules/base.nix
-      ./modules/plasma5.nix
-      ./modules/coding.nix
-      ./modules/mullvad.nix
-      ./modules/media.nix
-      ./modules/gaming.nix
-    ];
+  config,
+  pkgs,
+  ...
+}: {
+  imports = [
+    # Include the results of the hardware scan.
+    /etc/nixos/hardware-configuration.nix
+    ./modules/locale.nix
+    ./modules/users.nix
+    ./modules/base.nix
+    ./modules/plasma5.nix
+    ./modules/coding.nix
+    ./modules/mullvad.nix
+    ./modules/media.nix
+    ./modules/gaming.nix
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -45,7 +46,7 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
-  services.printing.drivers = [ pkgs.samsung-unified-linux-driver ];
+  services.printing.drivers = [pkgs.samsung-unified-linux-driver];
 
   # Enable sound with pipewire.
   sound.enable = true;
@@ -93,5 +94,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.11"; # Did you read the comment?
-
 }

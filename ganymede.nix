@@ -1,26 +1,26 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-
-{ config, pkgs, ... }:
-
 {
-  imports =
-    [
-      /etc/nixos/hardware-configuration.nix
-      ./modules/locale.nix
-      ./modules/users.nix
-      ./modules/base.nix
-      ./modules/hyprland.nix
-      ./modules/plasma.nix
-      ./modules/coding.nix
-      ./modules/mullvad.nix
-      ./modules/media.nix
-      ./modules/files.nix
-      ./modules/messenger.nix
-      ./modules/graphics.nix
-      ./modules/greetd.nix
-    ];
+  config,
+  pkgs,
+  ...
+}: {
+  imports = [
+    /etc/nixos/hardware-configuration.nix
+    ./modules/locale.nix
+    ./modules/users.nix
+    ./modules/base.nix
+    ./modules/hyprland.nix
+    ./modules/plasma.nix
+    ./modules/coding.nix
+    ./modules/mullvad.nix
+    ./modules/media.nix
+    ./modules/files.nix
+    ./modules/messenger.nix
+    ./modules/graphics.nix
+    ./modules/greetd.nix
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -101,5 +101,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.11"; # Did you read the comment?
-
 }

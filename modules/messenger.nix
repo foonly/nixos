@@ -1,6 +1,8 @@
-{ config, pkgs, ... }:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   environment.systemPackages = with pkgs; [
     mumble
     webcord
@@ -8,5 +10,4 @@
     telegram-desktop
     whatsapp-for-linux
   ];
-
 }

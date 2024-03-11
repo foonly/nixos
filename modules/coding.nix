@@ -1,6 +1,8 @@
-{ config, pkgs, ... }:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   virtualisation.docker.enable = true;
 
   environment.systemPackages = with pkgs; [
@@ -11,6 +13,6 @@
     vscodium
     dbeaver
     php83Packages.composer
+    php83
   ];
-
 }
