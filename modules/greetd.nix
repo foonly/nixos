@@ -16,7 +16,7 @@
     GTK = {
       application_prefer_dark_theme = true;
       cursor_theme_name = "Adwaita";
-      font_name = "Cantarell 16";
+      font_name = "Comic Code 16";
       icon_theme_name = "Adwaita";
       theme_name = "Adwaita";
     };
