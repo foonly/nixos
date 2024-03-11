@@ -26,5 +26,8 @@
     wl-clipboard
     clipman
     grimblast
+    kdePackages.ksshaskpass
+    kdePackages.kwallet
+    kdePackages.kwallet-pam
   ];
 }
