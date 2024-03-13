@@ -4,8 +4,10 @@
   ...
 }: {
   programs.hyprland.enable = true;
-
+  programs.thunar.enable = true;
   security.pam.services.greetd.enableKwallet = true;
+
+  programs.thunar.plugins = with pkgs.xfce; [thunar-archive-plugin thunar-volman];
 
   environment.systemPackages = with pkgs; [
     waybar

@@ -14,5 +14,6 @@
     dbeaver
     php83Packages.composer
     php83
+    gnumake
   ];
 }

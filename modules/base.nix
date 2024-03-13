@@ -30,6 +30,5 @@
     whois
     alejandra
     libnotify
-    gnumake
   ];
 }
