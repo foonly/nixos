@@ -12,7 +12,6 @@
     ./modules/users.nix
     ./modules/base.nix
     ./modules/hyprland.nix
-    ./modules/plasma.nix
     ./modules/coding.nix
     ./modules/mullvad.nix
     ./modules/media.nix
