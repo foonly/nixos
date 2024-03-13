@@ -5,9 +5,11 @@
 }: {
   programs.hyprland.enable = true;
   programs.thunar.enable = true;
-  security.pam.services.greetd.enableKwallet = true;
-
   programs.thunar.plugins = with pkgs.xfce; [thunar-archive-plugin thunar-volman];
+
+  programs.seahorse.enable = true;
+  services.gnome.gnome-keyring.enable = true;
+  security.pam.services.greetd.enableGnomeKeyring = true;
 
   environment.systemPackages = with pkgs; [
     waybar
@@ -28,8 +30,5 @@
     wl-clipboard
     clipman
     grimblast
-    kdePackages.ksshaskpass
-    kdePackages.kwallet
-    kdePackages.kwallet-pam
   ];
 }
