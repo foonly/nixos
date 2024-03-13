@@ -15,5 +15,7 @@
     php83Packages.composer
     php83
     gnumake
+    fira-code-nerdfont
+    lapce
   ];
 }
