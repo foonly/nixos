@@ -29,5 +29,7 @@
     whois
     alejandra
     libnotify
+    btop
+    neofetch
   ];
 }
