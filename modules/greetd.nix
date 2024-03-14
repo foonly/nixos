@@ -23,6 +23,5 @@
   };
 
   environment.systemPackages = with pkgs; [
-    comic-neue
   ];
 }

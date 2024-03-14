@@ -11,6 +11,7 @@
     ./modules/locale.nix
     ./modules/users.nix
     ./modules/base.nix
+    ./modules/fonts.nix
     ./modules/hyprland.nix
     ./modules/coding.nix
     ./modules/mullvad.nix

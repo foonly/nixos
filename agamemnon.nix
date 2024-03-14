@@ -12,6 +12,7 @@
     ./modules/locale.nix
     ./modules/users.nix
     ./modules/base.nix
+    ./modules/fonts.nix
     ./modules/plasma5.nix
     ./modules/coding.nix
     ./modules/mullvad.nix

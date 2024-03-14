@@ -21,7 +21,6 @@
     librewolf
     thunderbird
     vivaldi
-    nerdfonts
     starship
     aw-server-rust
     aw-qt
