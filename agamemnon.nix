@@ -18,9 +18,11 @@
     ./modules/mullvad.nix
     ./modules/media.nix
     ./modules/gaming.nix
-      ./modules/files.nix
-      ./modules/messenger.nix
-    ];
+    ./modules/graphics.nix
+    ./modules/files.nix
+    ./modules/messenger.nix
+    ./modules/pcloud.nix
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
