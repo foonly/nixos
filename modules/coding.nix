@@ -17,5 +17,7 @@
     gnumake
     fira-code-nerdfont
     lapce
+    nodePackages.vls
+    nodePackages.intelephense
   ];
 }
