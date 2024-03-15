@@ -34,5 +34,6 @@
     grimblast
     arc-theme
     beauty-line-icon-theme
+    adapta-gtk-theme
   ];
 }
