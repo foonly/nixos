@@ -14,5 +14,6 @@
     protonup-qt
     mangohud
     gamescope
+    gamemode
   ];
 }
