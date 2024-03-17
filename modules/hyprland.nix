@@ -31,5 +31,6 @@
     wl-clipboard
     clipman
     grimblast
+    arc-theme
   ];
 }
