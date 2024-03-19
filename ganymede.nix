@@ -47,10 +47,7 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
-  # Enable the KDE Plasma Desktop Environment.
-  #services.xserver.displayManager.sddm.enable = true;
-  # services.xserver.displayManager.defaultSession = "plasmawayland";
-  #services.xserver.displayManager.sddm.wayland.enable = true;
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
