@@ -31,5 +31,6 @@
     libnotify
     btop
     neofetch
+    xorg.xeyes
   ];
 }
