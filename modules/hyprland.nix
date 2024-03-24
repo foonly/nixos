@@ -14,7 +14,7 @@
   qt.platformTheme = "qt5ct";
 
   environment.systemPackages = with pkgs; [
-    waybar
+    ags
     dex
     wofi
     hyprpaper
@@ -25,15 +25,13 @@
     swayosd
     pavucontrol
     wlogout
-    nwg-look
     lxappearance
-    libsForQt5.qt5ct
-    qt6Packages.qt6ct
     wl-clipboard
     clipman
     grimblast
-    arc-theme
-    beauty-line-icon-theme
     adapta-gtk-theme
+    (waybar.override {
+      wireplumberSupport = false;
+    })
   ];
 }

@@ -8,6 +8,8 @@
 }: {
   imports = [
     /etc/nixos/hardware-configuration.nix
+    <home-manager/nixos>
+    ./home.nix
     ./modules/locale.nix
     ./modules/users.nix
     ./modules/base.nix

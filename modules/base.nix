@@ -16,12 +16,7 @@
     micro
     vim
     wget
-    eza
-    dig
-    librewolf
-    thunderbird
     vivaldi
-    starship
     aw-server-rust
     aw-qt
     wezterm

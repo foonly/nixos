@@ -19,5 +19,6 @@
     lapce
     nodePackages.vls
     nodePackages.intelephense
+    postman
   ];
 }

@@ -8,10 +8,5 @@
     isNormalUser = true;
     description = "Niklas Schönberg";
     extraGroups = ["networkmanager" "wheel" "docker"];
-    packages = with pkgs; [
-      #firefox
-      #kate
-      #thunderbird
-    ];
   };
 }
