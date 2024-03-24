@@ -9,14 +9,16 @@
       fira-code
       ubuntu_font_family
       comic-neue
+      barlow
+      zilla-slab
       font-awesome
       (nerdfonts.override {fonts = ["FiraCode"];})
     ];
 
     fontconfig = {
       defaultFonts = {
-        serif = ["Ubuntu"];
-        sansSerif = ["ComicNeue" "Ubuntu"];
+        serif = ["Zilla Slab" "DejaVu Serif"];
+        sansSerif = ["Barlow" "DejaVu Sans"];
         monospace = ["FiraCode"];
       };
     };

@@ -16,7 +16,6 @@
     micro
     vim
     wget
-    vivaldi
     aw-server-rust
     aw-qt
     wezterm

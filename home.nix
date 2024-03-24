@@ -11,6 +11,13 @@
 
     programs.bash.enable = true;
 
+	home.shellAliases = {
+		pn = "pnpm";	
+	};
+	home.sessionPath = [
+		"$HOME/bin"	
+	];
+
     programs.git = {
       enable = true;
       userName = "Niklas Schönberg";
