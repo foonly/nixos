@@ -13,9 +13,11 @@
 
     home.shellAliases = {
       pn = "pnpm";
+      ls = "eza --icons --group-directories-first --hyperlink --git";
     };
     home.sessionPath = [
       "$HOME/bin"
+      "$HOME/.config/composer/vendor/bin"
     ];
 
     programs.git = {
