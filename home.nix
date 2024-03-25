@@ -63,6 +63,7 @@
       librewolf
       thunderbird
       vivaldi
+      youtube-tui
     ];
   };
 }
