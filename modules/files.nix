@@ -8,5 +8,6 @@
     cinnamon.xreader
     xarchiver
     libreoffice
+    pcloud
   ];
 }
