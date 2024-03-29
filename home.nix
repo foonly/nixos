@@ -43,7 +43,10 @@
       };
     };
 
-    services.ssh-agent.enable = true;
+    services.gpg-agent = {
+      enable = true;
+      enableSshSupport = true;
+    };
 
     home.pointerCursor = {
       gtk.enable = true;
