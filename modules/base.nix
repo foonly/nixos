@@ -19,6 +19,7 @@
     aw-server-rust
     aw-qt
     wezterm
+    kitty
     killall
     whois
     alejandra
