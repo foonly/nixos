@@ -1,0 +1,1549 @@
+activating the configuration...
+setting up /etc...
+reloading user units for niklas...
+restarting sysinit-reactivation.target
+reloading the following units: dbus.service
+restarting the following units: polkit.service
+the following new units were started: sysinit-reactivation.target, systemd-tmpfiles-resetup.service
+drv
+  /nix/store/vwz3z9gkpm3wxnvn0ay9gd8064d5lv9r-steam-gamescope.drv
+  /nix/store/makcypb8rhginjl9q5csfkc2m3ya5p6h-postman-10.23.5.tar.gz.drv
+  /nix/store/zl1kd8qiwn8ijh8cp7cgp2q5xdr6pkdr-postman.desktop.drv
+  /nix/store/wij07zim6vc8fncpr9m6qimd84c7pwy2-postman-10.23.5.drv
+  /nix/store/9w2w7f3h666wg2mqyww6ndzg6rwrwd0x-system-path.drv
+  /nix/store/bsah7f4c937mqjs25gsf9b07gz8z2v36-dbus-1.drv
+  /nix/store/rb0ic07qqi6imyp65vkx0f96arb4zjmy-X-Restart-Triggers-dbus.drv
+  /nix/store/1c6jxhyivnnnh4459i0hl9fq1iamd84k-unit-dbus.service.drv
+  /nix/store/1gr0ixhar8jnrpz7cz30jxz7fdljrs8h-steam.desktop.drv
+  /nix/store/md1na6nzlmxkkb6kivaf94ri8v3x7ghp-fc-cache.drv
+  /nix/store/30r6n3xxsiihg7x2bq5xkblxh726jhib-fc-00-nixos-cache.conf.drv
+  /nix/store/xavs8dpfd4flrv0043diyr12ish3rcy2-fc-52-nixos-default-fonts.conf.drv
+  /nix/store/1j21iskp3iyfbvq8clpxi6id5v0iixxc-fontconfig-conf.drv
+  /nix/store/cvbhfd7r6rshi010p63s5d323irzsczx-desktops.drv
+  /nix/store/4vza0yjlwyiablmf0pcnm78akg2rajr8-etc-pam-environment.drv
+  /nix/store/c0vdrqfavh0mmmxiind8xlrvvk2jqw6d-set-environment.drv
+  /nix/store/75iaccljqw32pvriznhm86gr3hy6vpsm-etc-profile.drv
+  /nix/store/p8gz4jbwmnp7wmssgr3nih2604scdg3j-X-Restart-Triggers-polkit.drv
+  /nix/store/wh909cxpf46c8md1i22n4y8sfwm98164-unit-polkit.service.drv
+  /nix/store/i77494j3mxdnp0y7cqd8srkfz29462ln-system-units.drv
+  /nix/store/n05g1rmq373pqczi5xb78268f6mlbk6l-fontconfig-etc.drv
+  /nix/store/mc41zswggmfcmm4q1imygv5khfsll2n6-unit-dbus.service.drv
+  /nix/store/xra7abpddd06zx9aww6xqz9vky049jzp-user-units.drv
+  /nix/store/ki78ihaqp3mzq58df70cyxnrljzrbjd6-etc.drv
+  /nix/store/7163339aankjjlkky4f9llnv604rhv3v-nixos-system-agamemnon-24.05pre596954.d691274a972b.drv
+these 77 paths will be fetched (312.59 MiB download, 1620.99 MiB unpacked):
+  /nix/store/fvlcfrcrsmbqdlrkk50nrn7xhkaj01rp-CoinMP-1.8.4
+  /nix/store/48vzzpk09d2xdbsg6vgq0nz55j6n4932-SDL2-2.30.0-dev
+  /nix/store/b0ha4zwfzf67015v6l55bl7kwc9vr0hx-ags-1.8.0
+  /nix/store/w48w6wvbiw5f6xyrk0w8ipwznck5c168-alsa-lib-1.2.11-dev
+  /nix/store/p7n7v122icvlmlpvbrx2hqfjxh9myc92-atkmm-2.28.4-dev
+  /nix/store/65ssnnybjhqzpqhzh9cbp7j3rlhad61s-attr-2.5.2-dev
+  /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422
+  /nix/store/68s8728ri9fizid35p043791vsih7b6x-boost-1.79.0
+  /nix/store/9x06sqlw4xjc28iwn5qjb7z1gqggmprn-box2d-2.3.1
+  /nix/store/i6w5pdwj8hvgn6phqy4gxlf595cgzgff-cairomm-1.14.5-dev
+  /nix/store/hscyif4fvhnljm9l0rvksd901c5vvhvb-catch2-3.5.2
+  /nix/store/xw5yh885bvzwzbnzzm4ysdc41affw8a3-clucene-core-2.3.3.4
+  /nix/store/alkg248zqgyw957dnn53s4j5lxg8qcyz-copy-desktop-items-hook
+  /nix/store/d0hlczg3i1zk65zbqxzj7033zjq1qc0k-fftw-double-3.3.10-dev
+  /nix/store/yik3gsbrzd62wn2r1492m91z24l6rljb-filelight-24.02.0
+  /nix/store/xn0pf5vxww9k5kjh5bliafbiq2bzk4hk-fmt-10.2.1-dev
+  /nix/store/m4avc5pz1z0iifw2lhh34i0sc1nm28bs-gjs-1.78.4
+  /nix/store/kdrx6cx0a13mpivvw2y9jww8dcbqg8z0-glibmm-2.66.6-dev
+  /nix/store/2bd1fc63sb1ll3qswxnxzby4ms8bf6wc-gnome-bluetooth-42.8
+  /nix/store/30rg1dk5zh5xb3cpr3v29hk3d5w9ph4y-gsound-1.0.3
+  /nix/store/mldag37rhww54v98bx1g48dp0hs6x47x-gtk-layer-shell-0.8.2-dev
+  /nix/store/w6sb2idv0ybsfinma9xkmf4ak998848n-gtkmm-3.24.8-dev
+  /nix/store/jy38j0zq9nh46j3a46nmr0amfd9dcw1r-howard-hinnant-date-3.0.1-dev
+  /nix/store/ghlryb80p5kkp55fpvlsfbgn0p1viblf-hyprland-0.36.0-dev
+  /nix/store/dlra4nnarfl87f77iq8zwrgmv9bq073a-jsoncpp-1.9.5-dev
+  /nix/store/g3wdjf9cg127cbxa5rh8vi72jcdxxk4a-lhasa-0.4.0
+  /nix/store/p842y8113w9x4126cj697h3iav8lfsbb-libXxf86vm-1.1.5-dev
+  /nix/store/bqkkplg402miyz49g915a51ajis23y68-libabw-0.1.3
+  /nix/store/ccl9gka5688kg0h8ml10gdxsrxfyk3wy-libcap-2.69-dev
+  /nix/store/cc46kk2v6kjhmg0vfljm44mq1ippgnhg-libe-book-0.1.3
+  /nix/store/d437106faqr8byiavmkp6ycjnk12wjr5-libexttextcat-3.4.6
+  /nix/store/44szv1b9bv0crhs44s7gl36pcanc6qzw-libinput-1.25.0-bin
+  /nix/store/s6wrx2d9k72n8knhs4m3s819ahqhkd17-libinput-1.25.0-dev
+  /nix/store/2a1wlkwgybd0g6nzasqk1231qag1g2a4-libjack2-1.9.22-dev
+  /nix/store/ywla88svcfn11q359izsc122blmyh6fj-liblangtag-0.6.3
+  /nix/store/55b7dpw1hml3zfn23hb1hx0z37l221r3-libmwaw-0.3.22
+  /nix/store/cvjfv8h3n6k4k60pgq88y7nqgmxn34zq-libnl-3.8.0-bin
+  /nix/store/rmvxpmck6rlv3v2n99521414cfhrqx44-libnl-3.8.0-dev
+  /nix/store/ccifjlm40rif8xsr16p55wh2gcq1nc8h-libodfgen-0.1.7
+  /nix/store/z6gaz6gypns4y0qp0gng8mvk7w5hrmdp-libpulseaudio-17.0-dev
+  /nix/store/gniw8l1z4742dsbc93j3lfi9736c6kx9-libreoffice-7.5.9.2
+  /nix/store/f55zv2ziqs897idqnxvwndfj7yb2n769-libreoffice-7.5.9.2-wrapped
+  /nix/store/js7fpz2z8fdissy2v7mn7121vyyfvjn4-libsecret-0.21.4-dev
+  /nix/store/7v36zz51a32ayv64dy9hdzpwhpvfpsij-libsigc++-2.12.1-dev
+  /nix/store/813mi4ynn0ka8v19xh9qpicmhl68x0qr-libwps-0.4.14
+  /nix/store/v3c44m2p0rqjmn2xjkv3p6wc17fwgs6n-libxshmfence-1.3.2-dev
+  /nix/store/vli8iich1q7m1lv6y1c32y69fz963lbr-libzmf-0.0.2
+  /nix/store/mh5mi607kanslcqi6xf3gv1yl4ywrd56-make-binary-wrapper-hook
+  /nix/store/9g646f45v42lwz256pv07awb5qzpv8ic-mesa-24.0.2-dev
+  /nix/store/08wpqn1bhhxn55mv8zy0z4w8j7854g4g-meson-1.3.2
+  /nix/store/li8g34bvpnq3qa7gv6m2c9i1gfpi9aq3-mythes-1.2.4
+  /nix/store/783ir4cbn5bdzlan5bk9v838z6561b45-ncurses-6.4-dev
+  /nix/store/d6bvhfhg3aw2lj0nyb08y0ahlj5md6p8-ninja-1.11.1
+  /nix/store/m1rnlj5mmlivn26z7ry0kpvbm94af9rg-nspr-4.35-dev
+  /nix/store/ix7fnhidc7dz8laphxbgvi4i3prnsdhn-nss-3.90.2-dev
+  /nix/store/yyd6knhr4lc31a8g71q5pxym3d64pmd7-openjdk-minimal-jre-17.0.7+7
+  /nix/store/83j8j3w99fy5fbcjvi76rz8xasj8j5sj-pangomm-2.46.4-dev
+  /nix/store/sk4fs2v0apvfxjpwnz3z07ls4131n8qf-python3-3.11.8-env
+  /nix/store/a57c6i1h3c771mijrrhrz6406pv753g6-python3.11-libevdev-0.11
+  /nix/store/xzs4xv1n1qsrarfd6brn4lr95nmpag83-python3.11-pyudev-0.24.1
+  /nix/store/40cx6kcq46a14h4sc5zxc3fdjzi41nx8-python3.11-pyyaml-6.0.1
+  /nix/store/s02f3sig79p7cvc7hgq629jby3xql1dw-rasqal-0.9.33
+  /nix/store/ickj0n77zz9lhycqkkf2fb5iz1nj8rp0-redland-1.0.17
+  /nix/store/93slps7dwizb5v29vqi6xrm13ym5nvy4-scdoc-1.11.3
+  /nix/store/d9jrxg7r4nrp424lk9qi59svk1cx4w6z-scdoc-1.11.3-dev
+  /nix/store/7dqmplig4p68qncgai7ak5bffyzjfl05-source
+  /nix/store/alk43wilg5sbc89mpqj4z243ira8mcwk-source
+  /nix/store/7k5dkgi4hqcqpzr9zsr2g5favzqndsan-spdlog-1.13.0-dev
+  /nix/store/4a6dfxh24db4i1vyw0d8qf4gxhaz0l1z-spidermonkey-115.2.0
+  /nix/store/va5jcs13jxgwizdssayzbvv35360wrln-sway-unwrapped-1.9
+  /nix/store/9jp9wpzhvhd9if7ch48mlmanr6yyfi59-swaybg-1.2.0
+  /nix/store/fwqias3w28bxcsi22d0ck6pywhhaqr6b-upower-1.90.2-dev
+  /nix/store/fppy8lypqvqqlmmw8pyfnwm1dydc6dvj-util-linux-minimal-2.39.3-dev
+  /nix/store/96cwp2wv6ygbbs8wf0zr19l2yxvapm50-wrap-gapps-hook
+  /nix/store/8bhcx410ag5prl312aindylrysxqwl9d-xarchiver-0.5.4.23
+  /nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002
+  /nix/store/ldrrpfr2s9rsc3j643gcwppgg3icps55-zip-3.0
+copying path '/nix/store/yik3gsbrzd62wn2r1492m91z24l6rljb-filelight-24.02.0' from 'https://cache.nixos.org'...
+building '/nix/store/vwz3z9gkpm3wxnvn0ay9gd8064d5lv9r-steam-gamescope.drv'...
+copying path '/nix/store/fvlcfrcrsmbqdlrkk50nrn7xhkaj01rp-CoinMP-1.8.4' from 'https://cache.nixos.org'...
+copying path '/nix/store/9x06sqlw4xjc28iwn5qjb7z1gqggmprn-box2d-2.3.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/hscyif4fvhnljm9l0rvksd901c5vvhvb-catch2-3.5.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/alkg248zqgyw957dnn53s4j5lxg8qcyz-copy-desktop-items-hook' from 'https://cache.nixos.org'...
+copying path '/nix/store/g3wdjf9cg127cbxa5rh8vi72jcdxxk4a-lhasa-0.4.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/alk43wilg5sbc89mpqj4z243ira8mcwk-source' from 'https://cache.nixos.org'...
+copying path '/nix/store/7dqmplig4p68qncgai7ak5bffyzjfl05-source' from 'https://cache.nixos.org'...
+copying path '/nix/store/ldrrpfr2s9rsc3j643gcwppgg3icps55-zip-3.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/68s8728ri9fizid35p043791vsih7b6x-boost-1.79.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/xw5yh885bvzwzbnzzm4ysdc41affw8a3-clucene-core-2.3.3.4' from 'https://cache.nixos.org'...
+copying path '/nix/store/30rg1dk5zh5xb3cpr3v29hk3d5w9ph4y-gsound-1.0.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/bqkkplg402miyz49g915a51ajis23y68-libabw-0.1.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/d437106faqr8byiavmkp6ycjnk12wjr5-libexttextcat-3.4.6' from 'https://cache.nixos.org'...
+copying path '/nix/store/ywla88svcfn11q359izsc122blmyh6fj-liblangtag-0.6.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/55b7dpw1hml3zfn23hb1hx0z37l221r3-libmwaw-0.3.22' from 'https://cache.nixos.org'...
+building '/nix/store/zl1kd8qiwn8ijh8cp7cgp2q5xdr6pkdr-postman.desktop.drv'...
+building '/nix/store/xavs8dpfd4flrv0043diyr12ish3rcy2-fc-52-nixos-default-fonts.conf.drv'...
+building '/nix/store/makcypb8rhginjl9q5csfkc2m3ya5p6h-postman-10.23.5.tar.gz.drv'...
+copying path '/nix/store/48vzzpk09d2xdbsg6vgq0nz55j6n4932-SDL2-2.30.0-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/w48w6wvbiw5f6xyrk0w8ipwznck5c168-alsa-lib-1.2.11-dev' from 'https://cache.nixos.org'...
+building '/nix/store/1gr0ixhar8jnrpz7cz30jxz7fdljrs8h-steam.desktop.drv'...
+copying path '/nix/store/65ssnnybjhqzpqhzh9cbp7j3rlhad61s-attr-2.5.2-dev' from 'https://cache.nixos.org'...
+building '/nix/store/cvbhfd7r6rshi010p63s5d323irzsczx-desktops.drv'...
+copying path '/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422' from 'https://cache.nixos.org'...
+building '/nix/store/4vza0yjlwyiablmf0pcnm78akg2rajr8-etc-pam-environment.drv'...
+building '/nix/store/c0vdrqfavh0mmmxiind8xlrvvk2jqw6d-set-environment.drv'...
+
+trying https://dl.pstmn.io/download/version/10.23.5/linux64
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+copying path '/nix/store/d0hlczg3i1zk65zbqxzj7033zjq1qc0k-fftw-double-3.3.10-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/xn0pf5vxww9k5kjh5bliafbiq2bzk4hk-fmt-10.2.1-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/2bd1fc63sb1ll3qswxnxzby4ms8bf6wc-gnome-bluetooth-42.8' from 'https://cache.nixos.org'...
+copying path '/nix/store/mldag37rhww54v98bx1g48dp0hs6x47x-gtk-layer-shell-0.8.2-dev' from 'https://cache.nixos.org'...
+building '/nix/store/75iaccljqw32pvriznhm86gr3hy6vpsm-etc-profile.drv'...
+copying path '/nix/store/jy38j0zq9nh46j3a46nmr0amfd9dcw1r-howard-hinnant-date-3.0.1-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/ghlryb80p5kkp55fpvlsfbgn0p1viblf-hyprland-0.36.0-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/dlra4nnarfl87f77iq8zwrgmv9bq073a-jsoncpp-1.9.5-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/p842y8113w9x4126cj697h3iav8lfsbb-libXxf86vm-1.1.5-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/ccl9gka5688kg0h8ml10gdxsrxfyk3wy-libcap-2.69-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/2a1wlkwgybd0g6nzasqk1231qag1g2a4-libjack2-1.9.22-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/cc46kk2v6kjhmg0vfljm44mq1ippgnhg-libe-book-0.1.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/cvjfv8h3n6k4k60pgq88y7nqgmxn34zq-libnl-3.8.0-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/ccifjlm40rif8xsr16p55wh2gcq1nc8h-libodfgen-0.1.7' from 'https://cache.nixos.org'...
+copying path '/nix/store/z6gaz6gypns4y0qp0gng8mvk7w5hrmdp-libpulseaudio-17.0-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/js7fpz2z8fdissy2v7mn7121vyyfvjn4-libsecret-0.21.4-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/7v36zz51a32ayv64dy9hdzpwhpvfpsij-libsigc++-2.12.1-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/813mi4ynn0ka8v19xh9qpicmhl68x0qr-libwps-0.4.14' from 'https://cache.nixos.org'...
+copying path '/nix/store/v3c44m2p0rqjmn2xjkv3p6wc17fwgs6n-libxshmfence-1.3.2-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/vli8iich1q7m1lv6y1c32y69fz963lbr-libzmf-0.0.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/mh5mi607kanslcqi6xf3gv1yl4ywrd56-make-binary-wrapper-hook' from 'https://cache.nixos.org'...
+copying path '/nix/store/9g646f45v42lwz256pv07awb5qzpv8ic-mesa-24.0.2-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/08wpqn1bhhxn55mv8zy0z4w8j7854g4g-meson-1.3.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/rmvxpmck6rlv3v2n99521414cfhrqx44-libnl-3.8.0-dev' from 'https://cache.nixos.org'...
+building '/nix/store/h3sw9d1j5p4hvl36chcwg8w5gaa1k84c-gamescope.drv'...
+copying path '/nix/store/li8g34bvpnq3qa7gv6m2c9i1gfpi9aq3-mythes-1.2.4' from 'https://cache.nixos.org'...
+copying path '/nix/store/783ir4cbn5bdzlan5bk9v838z6561b45-ncurses-6.4-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/d6bvhfhg3aw2lj0nyb08y0ahlj5md6p8-ninja-1.11.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/i6w5pdwj8hvgn6phqy4gxlf595cgzgff-cairomm-1.14.5-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/kdrx6cx0a13mpivvw2y9jww8dcbqg8z0-glibmm-2.66.6-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/m1rnlj5mmlivn26z7ry0kpvbm94af9rg-nspr-4.35-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/yyd6knhr4lc31a8g71q5pxym3d64pmd7-openjdk-minimal-jre-17.0.7+7' from 'https://cache.nixos.org'...
+copying path '/nix/store/a57c6i1h3c771mijrrhrz6406pv753g6-python3.11-libevdev-0.11' from 'https://cache.nixos.org'...
+copying path '/nix/store/xzs4xv1n1qsrarfd6brn4lr95nmpag83-python3.11-pyudev-0.24.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/40cx6kcq46a14h4sc5zxc3fdjzi41nx8-python3.11-pyyaml-6.0.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/s02f3sig79p7cvc7hgq629jby3xql1dw-rasqal-0.9.33' from 'https://cache.nixos.org'...
+copying path '/nix/store/93slps7dwizb5v29vqi6xrm13ym5nvy4-scdoc-1.11.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/7k5dkgi4hqcqpzr9zsr2g5favzqndsan-spdlog-1.13.0-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/d9jrxg7r4nrp424lk9qi59svk1cx4w6z-scdoc-1.11.3-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/ix7fnhidc7dz8laphxbgvi4i3prnsdhn-nss-3.90.2-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/4a6dfxh24db4i1vyw0d8qf4gxhaz0l1z-spidermonkey-115.2.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/9jp9wpzhvhd9if7ch48mlmanr6yyfi59-swaybg-1.2.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/fwqias3w28bxcsi22d0ck6pywhhaqr6b-upower-1.90.2-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/fppy8lypqvqqlmmw8pyfnwm1dydc6dvj-util-linux-minimal-2.39.3-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/va5jcs13jxgwizdssayzbvv35360wrln-sway-unwrapped-1.9' from 'https://cache.nixos.org'...
+copying path '/nix/store/96cwp2wv6ygbbs8wf0zr19l2yxvapm50-wrap-gapps-hook' from 'https://cache.nixos.org'...
+copying path '/nix/store/8bhcx410ag5prl312aindylrysxqwl9d-xarchiver-0.5.4.23' from 'https://cache.nixos.org'...
+copying path '/nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002' from 'https://cache.nixos.org'...
+copying path '/nix/store/sk4fs2v0apvfxjpwnz3z07ls4131n8qf-python3-3.11.8-env' from 'https://cache.nixos.org'...
+copying path '/nix/store/ickj0n77zz9lhycqkkf2fb5iz1nj8rp0-redland-1.0.17' from 'https://cache.nixos.org'...
+copying path '/nix/store/44szv1b9bv0crhs44s7gl36pcanc6qzw-libinput-1.25.0-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/p7n7v122icvlmlpvbrx2hqfjxh9myc92-atkmm-2.28.4-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/83j8j3w99fy5fbcjvi76rz8xasj8j5sj-pangomm-2.46.4-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/s6wrx2d9k72n8knhs4m3s819ahqhkd17-libinput-1.25.0-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/w6sb2idv0ybsfinma9xkmf4ak998848n-gtkmm-3.24.8-dev' from 'https://cache.nixos.org'...
+building '/nix/store/1lchmsnwy5d73isknbsas875mvd44jvf-sway.drv'...
+building '/nix/store/lvchjmy8pd28ldi3hpj43da3qspz4q4h-sway-1.9.drv'...
+/nix/store/va5jcs13jxgwizdssayzbvv35360wrln-sway-unwrapped-1.9/bin:
+sway: /nix/store/c4s9hziipm88girphcgyn7aqr3ngc847-sway/bin/sway
+building '/nix/store/j80d2a92hmp895rflh3133k2b9xgap2r-waybar-0.9.24.drv'...
+Running phase: unpackPhase
+unpacking source archive /nix/store/alk43wilg5sbc89mpqj4z243ira8mcwk-source
+source root is source
+/build/source /build
+patching script interpreter paths in .
+/build
+Running phase: patchPhase
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+Running phase: configurePhase
+mesonConfigurePhase flags: --prefix=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24 --libdir=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/lib --libexecdir=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/libexec --bindir=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/bin --sbindir=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/sbin --includedir=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include --mandir=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man --infodir=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/info --localedir=/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/locale -Dauto_features=enabled -Dwrap_mode=nodownload --buildtype=plain -Dcava=enabled -Ddbusmenu-gtk=enabled -Dgtk-layer-shell=enabled -Djack=enabled -Dlibinput=enabled -Dlibnl=enabled -Dlibudev=enabled -Dman-pages=enabled -Dmpd=enabled -Dmpris=enabled -Dpulseaudio=enabled -Drfkill=enabled -Dsndio=enabled -Dsystemd=disabled -Dtests=enabled -Dupower_glib=enabled -Dwireplumber=disabled -Dexperimental=true
+The Meson build system
+Version: 1.3.2
+Source dir: /build/source
+Build dir: /build/source/build
+Build type: native build
+Project name: waybar
+Project version: 0.9.24
+C compiler for the host machine: gcc (gcc 13.2.0 "gcc (GCC) 13.2.0")
+C linker for the host machine: gcc ld.bfd 2.41
+C++ compiler for the host machine: g++ (gcc 13.2.0 "g++ (GCC) 13.2.0")
+C++ linker for the host machine: g++ ld.bfd 2.41
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C++ supports link arguments -lc++fs: NO 
+Compiler for C++ supports link arguments -lc++experimental: NO 
+Compiler for C++ supports link arguments -lstdc++fs: YES 
+Program git found: NO
+Has header "filesystem" : YES 
+Checking if "nl_langinfo with _NL_TIME_WEEK_1STDAY, _NL_TIME_FIRST_WEEKDAY" : links: YES 
+Run-time dependency threads found: YES
+Found pkg-config: YES (/nix/store/a3752l19hc76dmzh1wgrxbsxh6lfx67z-pkg-config-wrapper-0.29.2/bin/pkg-config) 0.29.2
+Run-time dependency fmt found: YES 10.2.1
+Run-time dependency spdlog found: YES 1.13.0
+Run-time dependency wayland-client found: YES 1.22.0
+Run-time dependency wayland-cursor found: YES 1.22.0
+Run-time dependency wayland-protocols found: YES 1.33
+Run-time dependency gtkmm-3.0 found: YES 3.24.8
+Run-time dependency dbusmenu-gtk3-0.4 found: YES 16.04.0
+Run-time dependency gio-unix-2.0 found: YES 2.78.4
+Run-time dependency jsoncpp found: YES 1.9.5
+Run-time dependency sigc++-2.0 found: YES 2.12.1
+Did not find CMake 'cmake'
+Found CMake: NO
+Run-time dependency libinotify found: NO (tried pkgconfig and cmake)
+Run-time dependency epoll-shim found: NO (tried pkgconfig and cmake)
+Run-time dependency libinput found: YES 1.25.0
+Run-time dependency libnl-3.0 found: YES 3.8.0
+Run-time dependency libnl-genl-3.0 found: YES 3.8.0
+Run-time dependency upower-glib found: YES 1.90.2
+Run-time dependency playerctl found: YES 2.4.1
+Run-time dependency libpulse found: YES 17.0
+Run-time dependency libudev found: YES 255
+Run-time dependency libevdev found: YES 1.13.1
+Run-time dependency libmpdclient found: YES 2.22
+Run-time dependency xkbregistry found: YES 1.5.0
+Run-time dependency jack found: YES 1.9.22
+Dependency wireplumber-0.4 skipped: feature wireplumber disabled
+Library sndio found: YES
+Checking for function "sioctl_open" with dependency -lsndio: YES 
+Run-time dependency gtk-layer-shell-0 found: YES 0.8.2
+Dependency systemd skipped: feature systemd disabled
+Computing int of "__cpp_lib_chrono" : 201611
+Run-time dependency date found: YES 3.0.1
+Run-time dependency cava found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency cava
+
+Executing subproject cava 
+
+cava| Project name: cava
+cava| Project version: 0.9.1
+cava| C compiler for the host machine: gcc (gcc 13.2.0 "gcc (GCC) 13.2.0")
+cava| C linker for the host machine: gcc ld.bfd 2.41
+cava| Has header "iniparser.h" : YES
+cava| Library iniparser found: YES
+cava| Checking for function "iniparser_load" with dependency -liniparser: YES
+cava| Library m found: YES
+cava| Checking for function "sqrt" with dependency -lm: YES
+cava| Run-time dependency fftw3 found: YES 3.3.10
+cava| Dependency threads found: YES unknown (cached)
+cava| Has header "pthread.h" with dependency threads: YES
+cava| Checking for function "pthread_create" with dependency threads: YES
+cava| Check usable header "alloca.h" : YES
+cava| Run-time dependency ncursesw found: YES 6.4.20221231
+cava| Checking for function "initscr" with dependency ncursesw: YES
+cava| Library asound found: YES
+cava| Checking for function "snd_pcm_open" with dependency -lasound: YES
+cava| Library portaudio found: YES
+cava| Checking for function "Pa_Initialize" with dependency -lportaudio: YES
+cava| Dependency libpulse found: YES 17.0 (cached)
+cava| Library pulse-simple found: YES
+cava| Checking for function "pa_simple_new" with dependencies libpulse, -lpulse-simple: YES
+cava| Library sndio found: YES
+cava| Checking for function "sio_open" with dependency -lsndio: YES
+cava| Run-time dependency libpipewire-0.3 found: YES 1.0.3
+copying path '/nix/store/m4avc5pz1z0iifw2lhh34i0sc1nm28bs-gjs-1.78.4' from 'https://cache.nixos.org'...
+cava| Checking for function "pw_stream_connect" with dependency libpipewire-0.3: YES
+cava| Run-time dependency sdl2 found: YES 2.30.0
+cava| Run-time dependency gl found: YES 1.7.0
+cava| Checking for function "SDL_Init" with dependency sdl2: YES
+cava| Build targets in project: 1
+cava| Subproject cava finished.
+
+Dependency cava from subproject subprojects/cava-0.9.1 found: YES 0.9.1
+Program wayland-scanner found: YES (/nix/store/nw37g1h8glhh67320hdy8i5bb5v0k4fn-wayland-1.22.0-bin/bin/wayland-scanner)
+Program gdbus-codegen found: YES (/nix/store/s0nl17v1827bl7qyjgkkar90c2a40ykb-glib-2.78.4-dev/bin/gdbus-codegen)
+WARNING: You should add the boolean check kwarg to the run_command call.
+         It currently defaults to false,
+         but it will default to true in future releases of meson.
+         See also: https://github.com/mesonbuild/meson/issues/9300
+Build-time dependency scdoc found: YES 1.11.3
+Program /nix/store/93slps7dwizb5v29vqi6xrm13ym5nvy4-scdoc-1.11.3/bin/scdoc found: YES (/nix/store/93slps7dwizb5v29vqi6xrm13ym5nvy4-scdoc-1.11.3/bin/scdoc)
+Program sh found: YES (/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/sh)
+Configuring waybar.5.scd using configuration
+meson.build:434: DEPRECATION: Project uses feature that was always broken, and is now deprecated since '1.3.0': str.format: Value other than strings, integers, bools, options, dictionaries and lists thereof..
+meson.build:490: WARNING: Source item '/build/source/build/waybar.5.scd' cannot be converted to File object, because it is a generated file. This will become a hard error in the future.
+Run-time dependency catch2 found: YES 3.5.2
+Program clang-tidy found: NO
+Build targets in project: 46
+NOTICE: Future-deprecated features used:
+ * 0.55.0: {'ExternalProgram.path'}
+ * 0.56.0: {'dependency.get_pkgconfig_variable', 'meson.build_root', 'meson.source_root'}
+WARNING: Broken features used:
+ * 1.3.0: {'str.format: Value other than strings, integers, bools, options, dictionaries and lists thereof.'}
+
+waybar 0.9.24
+
+  Subprojects
+    cava           : YES
+
+  User defined options
+    auto_features  : enabled
+    bindir         : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/bin
+    buildtype      : plain
+    includedir     : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include
+    infodir        : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/info
+    libdir         : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/lib
+    libexecdir     : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/libexec
+    localedir      : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/locale
+    mandir         : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man
+    prefix         : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24
+    sbindir        : /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/sbin
+    wrap_mode      : nodownload
+    cava           : enabled
+    dbusmenu-gtk   : enabled
+    experimental   : true
+    gtk-layer-shell: enabled
+    jack           : enabled
+    libinput       : enabled
+    libnl          : enabled
+    libudev        : enabled
+    man-pages      : enabled
+    mpd            : enabled
+    mpris          : enabled
+    pulseaudio     : enabled
+    rfkill         : enabled
+    sndio          : enabled
+    systemd        : disabled
+    tests          : enabled
+    upower_glib    : enabled
+    wireplumber    : disabled
+
+Found ninja-1.11.1 at /nix/store/d6bvhfhg3aw2lj0nyb08y0ahlj5md6p8-ninja-1.11.1/bin/ninja
+mesonConfigurePhase: enabled\ parallel\ building
+Running phase: buildPhase
+build flags: -j16
+copying path '/nix/store/b0ha4zwfzf67015v6l55bl7kwc9vr0hx-ags-1.8.0' from 'https://cache.nixos.org'...
+[1/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_output_raw.c.o
+[2/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_output_noritake.c.o
+[3/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_common.c.o
+[4/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_input_fifo.c.o
+[5/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_input_sndio.c.o
+[6/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_input_portaudio.c.o
+[7/188] Generating 'protocol/libclient_protos.a.p/xdg-shell-protocol.c'
+[8/188] Generating 'protocol/libclient_protos.a.p/xdg-output-unstable-v1-protocol.c'
+[9/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_input_shmem.c.o
+../subprojects/cava-0.9.1/src/input/shmem.c: In function 'input_shmem':
+../subprojects/cava-0.9.1/src/input/shmem.c:96:51: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'vis_t *' [-Wformat=]
+   96 |         fprintf(stderr, "Could not munmap() area %p+%d. %s", mmap_area, mmap_count,
+      |                                                  ~^          ~~~~~~~~~
+      |                                                   |          |
+      |                                                   void *     vis_t *
+[10/188] Generating 'protocol/libclient_protos.a.p/idle-inhibit-unstable-v1-protocol.c'
+[11/188] Generating 'protocol/libclient_protos.a.p/wlr-layer-shell-unstable-v1-protocol.c'
+[12/188] Generating 'protocol/libclient_protos.a.p/wlr-foreign-toplevel-management-unstable-v1-protocol.c'
+[13/188] Generating 'protocol/libclient_protos.a.p/ext-workspace-unstable-v1-protocol.c'
+[14/188] Generating 'protocol/libclient_protos.a.p/river-status-unstable-v1-protocol.c'
+[15/188] Generating 'protocol/libclient_protos.a.p/dwl-ipc-unstable-v2-protocol.c'
+[16/188] Generating 'protocol/libclient_protos.a.p/river-control-unstable-v1-protocol.c'
+[17/188] Generating 'protocol/libclient_protos.a.p/xdg-output-unstable-v1-client-protocol.h'
+[18/188] Generating 'protocol/libclient_protos.a.p/idle-inhibit-unstable-v1-client-protocol.h'
+[19/188] Generating 'protocol/libclient_protos.a.p/xdg-shell-client-protocol.h'
+[20/188] Generating 'protocol/libclient_protos.a.p/wlr-layer-shell-unstable-v1-client-protocol.h'
+[21/188] Generating 'protocol/libclient_protos.a.p/ext-workspace-unstable-v1-client-protocol.h'
+[22/188] Generating 'protocol/libclient_protos.a.p/wlr-foreign-toplevel-management-unstable-v1-client-protocol.h'
+[23/188] Generating 'protocol/libclient_protos.a.p/river-control-unstable-v1-client-protocol.h'
+[24/188] Generating 'protocol/libclient_protos.a.p/river-status-unstable-v1-client-protocol.h'
+[25/188] Generating 'protocol/libclient_protos.a.p/dwl-ipc-unstable-v2-client-protocol.h'
+[26/188] Generating 'waybar.p/xdg-output-unstable-v1-client-protocol.h'
+[27/188] Generating 'waybar.p/xdg-shell-client-protocol.h'
+[28/188] Generating 'waybar.p/idle-inhibit-unstable-v1-client-protocol.h'
+[29/188] Generating 'waybar.p/wlr-layer-shell-unstable-v1-client-protocol.h'
+[30/188] Generating 'waybar.p/wlr-foreign-toplevel-management-unstable-v1-client-protocol.h'
+[31/188] Generating 'waybar.p/ext-workspace-unstable-v1-client-protocol.h'
+[32/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_input_alsa.c.o
+[33/188] Generating protocol/dbus-status-notifier-item.[ch] with a custom command
+[34/188] Generating 'waybar.p/river-status-unstable-v1-client-protocol.h'
+[35/188] Generating 'waybar.p/river-control-unstable-v1-client-protocol.h'
+[36/188] Generating 'waybar.p/dwl-ipc-unstable-v2-client-protocol.h'
+[37/188] Generating waybar.5 with a custom command
+[38/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_output_terminal_ncurses.c.o
+../subprojects/cava-0.9.1/src/output/terminal_ncurses.c: In function 'parse_color':
+../subprojects/cava-0.9.1/src/output/terminal_ncurses.c:46:37: warning: format '%hx' expects argument of type 'short unsigned int *', but argument 3 has type 'short int *' [-Wformat=]
+   46 |         sscanf(++color_string, "%02hx%02hx%02hx", &color->R, &color->G, &color->B);
+      |                                 ~~~~^             ~~~~~~~~~
+      |                                     |             |
+      |                                     |             short int *
+      |                                     short unsigned int *
+      |                                 %02hx
+../subprojects/cava-0.9.1/src/output/terminal_ncurses.c:46:42: warning: format '%hx' expects argument of type 'short unsigned int *', but argument 4 has type 'short int *' [-Wformat=]
+   46 |         sscanf(++color_string, "%02hx%02hx%02hx", &color->R, &color->G, &color->B);
+      |                                      ~~~~^                   ~~~~~~~~~
+      |                                          |                   |
+      |                                          |                   short int *
+      |                                          short unsigned int *
+      |                                      %02hx
+../subprojects/cava-0.9.1/src/output/terminal_ncurses.c:46:47: warning: format '%hx' expects argument of type 'short unsigned int *', but argument 5 has type 'short int *' [-Wformat=]
+   46 |         sscanf(++color_string, "%02hx%02hx%02hx", &color->R, &color->G, &color->B);
+      |                                           ~~~~^                         ~~~~~~~~~
+      |                                               |                         |
+      |                                               short unsigned int *      short int *
+      |                                           %02hx
+In file included from ../subprojects/cava-0.9.1/src/output/terminal_ncurses.c:8:
+../subprojects/cava-0.9.1/src/output/terminal_ncurses.c: In function 'draw_terminal_ncurses':
+../subprojects/cava-0.9.1/include/cava/util.h:5:5: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+    5 |     ({                                                                                             \
+      |     ^
+../subprojects/cava-0.9.1/include/cava/util.h:7:20: note: in definition of macro 'max'
+    7 |         __typeof__(b) _b = (b);                                                                    \
+      |                    ^
+../subprojects/cava-0.9.1/src/output/terminal_ncurses.c:252:50: note: in expansion of macro 'max'
+  252 |         max_update_value = max(max_update_value, max(bars[bar], previous_frame[bar]));
+      |                                                  ^~~
+../subprojects/cava-0.9.1/include/cava/util.h:5:5: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+    5 |     ({                                                                                             \
+      |     ^
+../subprojects/cava-0.9.1/include/cava/util.h:7:29: note: in definition of macro 'max'
+    7 |         __typeof__(b) _b = (b);                                                                    \
+      |                             ^
+../subprojects/cava-0.9.1/src/output/terminal_ncurses.c:252:50: note: in expansion of macro 'max'
+  252 |         max_update_value = max(max_update_value, max(bars[bar], previous_frame[bar]));
+      |                                                  ^~~
+../subprojects/cava-0.9.1/include/cava/util.h:5:5: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+    5 |     ({                                                                                             \
+      |     ^
+../subprojects/cava-0.9.1/src/output/terminal_ncurses.c:252:28: note: in expansion of macro 'max'
+  252 |         max_update_value = max(max_update_value, max(bars[bar], previous_frame[bar]));
+      |                            ^~~
+[39/188] Generating waybar-backlight-slider.5 with a custom command
+[40/188] Generating waybar-backlight.5 with a custom command
+[41/188] Generating waybar-battery.5 with a custom command
+[42/188] Generating waybar-clock.5 with a custom command
+[43/188] Generating waybar-cava.5 with a custom command
+[44/188] Generating waybar-cpu.5 with a custom command
+[45/188] Generating waybar-disk.5 with a custom command
+[46/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_input_common.c.o
+[47/188] Generating waybar-custom.5 with a custom command
+[48/188] Generating waybar-gamemode.5 with a custom command
+[49/188] Generating waybar-idle-inhibitor.5 with a custom command
+[50/188] Generating waybar-image.5 with a custom command
+[51/188] Generating waybar-memory.5 with a custom command
+[52/188] Generating waybar-mpris.5 with a custom command
+[53/188] Generating waybar-keyboard-state.5 with a custom command
+[54/188] Generating waybar-mpd.5 with a custom command
+[55/188] Generating waybar-network.5 with a custom command
+[56/188] Generating waybar-pulseaudio.5 with a custom command
+[57/188] Generating waybar-pulseaudio-slider.5 with a custom command
+[58/188] Generating waybar-river-mode.5 with a custom command
+[59/188] Generating waybar-river-tags.5 with a custom command
+[60/188] Generating waybar-river-window.5 with a custom command
+[61/188] Generating waybar-river-layout.5 with a custom command
+[62/188] Generating waybar-sway-language.5 with a custom command
+[63/188] Generating protocol/dbus-menu.[ch] with a custom command
+[64/188] Generating waybar-sway-mode.5 with a custom command
+[65/188] Generating waybar-sway-scratchpad.5 with a custom command
+[66/188] Generating waybar-sway-window.5 with a custom command
+[67/188] Generating waybar-sway-workspaces.5 with a custom command
+[68/188] Generating waybar-temperature.5 with a custom command
+[69/188] Generating waybar-tray.5 with a custom command
+[70/188] Generating waybar-states.5 with a custom command
+[71/188] Generating waybar-wlr-taskbar.5 with a custom command
+[72/188] Generating waybar-wlr-workspaces.5 with a custom command
+[73/188] Generating waybar-sndio.5 with a custom command
+[74/188] Generating waybar-upower.5 with a custom command
+[75/188] Generating waybar-bluetooth.5 with a custom command
+[76/188] Generating waybar-wireplumber.5 with a custom command
+[77/188] Generating waybar-inhibitor.5 with a custom command
+[78/188] Generating waybar-dwl-tags.5 with a custom command
+[79/188] Generating protocol/dbus-status-notifier-watcher.[ch] with a custom command
+[80/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_input_pulse.c.o
+[81/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_config.c.o
+[82/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_output_terminal_noncurses.c.o
+[83/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_cavacore.c.o
+[84/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_output_common.c.o
+In file included from ../subprojects/cava-0.9.1/src/output/common.c:3:
+../subprojects/cava-0.9.1/src/output/common.c: In function 'monstercat_filter':
+../subprojects/cava-0.9.1/include/cava/util.h:5:5: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+    5 |     ({                                                                                             \
+      |     ^
+../subprojects/cava-0.9.1/src/output/common.c:18:29: note: in expansion of macro 'max'
+   18 |                 bars[m_y] = max(bars[z] - pow(de, 2), bars[m_y]);
+      |                             ^~~
+../subprojects/cava-0.9.1/include/cava/util.h:5:5: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+    5 |     ({                                                                                             \
+      |     ^
+../subprojects/cava-0.9.1/src/output/common.c:22:29: note: in expansion of macro 'max'
+   22 |                 bars[m_y] = max(bars[z] - pow(de, 2), bars[m_y]);
+      |                             ^~~
+../subprojects/cava-0.9.1/include/cava/util.h:5:5: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+    5 |     ({                                                                                             \
+      |     ^
+../subprojects/cava-0.9.1/src/output/common.c:30:29: note: in expansion of macro 'max'
+   30 |                 bars[m_y] = max(bars[z] / pow(monstercat * 1.5, de), bars[m_y]);
+      |                             ^~~
+../subprojects/cava-0.9.1/include/cava/util.h:5:5: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+    5 |     ({                                                                                             \
+      |     ^
+../subprojects/cava-0.9.1/src/output/common.c:34:29: note: in expansion of macro 'max'
+   34 |                 bars[m_y] = max(bars[z] / pow(monstercat * 1.5, de), bars[m_y]);
+      |                             ^~~
+[85/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_xdg-shell-protocol.c.o
+[86/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_xdg-output-unstable-v1-protocol.c.o
+[87/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_idle-inhibit-unstable-v1-protocol.c.o
+[88/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_wlr-layer-shell-unstable-v1-protocol.c.o
+[89/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_wlr-foreign-toplevel-management-unstable-v1-protocol.c.o
+[90/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_ext-workspace-unstable-v1-protocol.c.o
+[91/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_river-status-unstable-v1-protocol.c.o
+[92/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_river-control-unstable-v1-protocol.c.o
+[93/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_dwl-ipc-unstable-v2-protocol.c.o
+[94/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_output_sdl_cava.c.o
+[95/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_output_sdl_glsl.c.o
+[96/188] Compiling C object subprojects/cava-0.9.1/libcava.so.p/src_input_pipewire.c.o
+In file included from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/pod.h:12,
+                 from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/iter.h:15,
+                 from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:15,
+                 from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/format-utils.h:12,
+                 from ../subprojects/cava-0.9.1/src/input/pipewire.c:5:
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/iter.h: In function 'spa_pod_copy_array':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/defs.h:136:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  136 | ({                                                      \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/iter.h:331:20: note: in expansion of macro 'SPA_MIN'
+  331 |         n_values = SPA_MIN(n_values, max_values);
+      |                    ^~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/iter.h: In function 'spa_pod_get_values':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/defs.h:136:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  136 | ({                                                      \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/iter.h:347:35: note: in expansion of macro 'SPA_MIN'
+  347 |                         *n_vals = SPA_MIN(1u, SPA_POD_CHOICE_N_VALUES(pod));
+      |                                   ^~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h: In function 'spa_pod_parser_init':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:36:90: warning: ISO C forbids empty initializer braces before C2X [-Wpedantic]
+   36 | #define SPA_POD_PARSER_INIT(buffer,size)  ((struct spa_pod_parser){ (buffer), (size), 0, {} })
+      |                                                                                          ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:41:19: note: in expansion of macro 'SPA_POD_PARSER_INIT'
+   41 |         *parser = SPA_POD_PARSER_INIT(data, size);
+      |                   ^~~~~~~~~~~~~~~~~~~
+In file included from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/format-utils.h:13:
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h: In function 'spa_pod_builder_init':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:52:92: warning: ISO C forbids empty initializer braces before C2X [-Wpedantic]
+   52 | #define SPA_POD_BUILDER_INIT(buffer,size)  ((struct spa_pod_builder){ (buffer), (size), 0, {}, {} })
+      |                                                                                            ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:79:20: note: in expansion of macro 'SPA_POD_BUILDER_INIT'
+   79 |         *builder = SPA_POD_BUILDER_INIT(data, size);
+      |                    ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:52:96: warning: ISO C forbids empty initializer braces before C2X [-Wpedantic]
+   52 | #define SPA_POD_BUILDER_INIT(buffer,size)  ((struct spa_pod_builder){ (buffer), (size), 0, {}, {} })
+      |                                                                                                ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:79:20: note: in expansion of macro 'SPA_POD_BUILDER_INIT'
+   79 |         *builder = SPA_POD_BUILDER_INIT(data, size);
+      |                    ^~~~~~~~~~~~~~~~~~~~
+In file included from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:23:
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h: In function 'spa_pod_builder_raw':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:127:25: note: in expansion of macro 'spa_callbacks_call_res'
+  127 |                         spa_callbacks_call_res(&builder->callbacks,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h: In function 'spa_pod_builder_primitive':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/defs.h:72:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   72 | ({                                                                      \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:188:17: note: in expansion of macro 'SPA_FLAG_CLEAR'
+  188 |                 SPA_FLAG_CLEAR(builder->state.flags, SPA_POD_BUILDER_FLAG_FIRST);
+      |                 ^~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h: In function 'spa_pod_builder_child':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/defs.h:72:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   72 | ({                                                                      \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:210:9: note: in expansion of macro 'SPA_FLAG_CLEAR'
+  210 |         SPA_FLAG_CLEAR(builder->state.flags, SPA_POD_BUILDER_FLAG_FIRST);
+      |         ^~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/format-utils.h: In function 'spa_format_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/format-utils.h:24:16: note: in expansion of macro 'spa_pod_parse_object'
+   24 |         return spa_pod_parse_object(format,
+      |                ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/format-utils.h:24:16: note: in expansion of macro 'spa_pod_parse_object'
+   24 |         return spa_pod_parse_object(format,
+      |                ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/raw-utils.h: In function 'spa_format_audio_raw_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/raw-utils.h:28:15: note: in expansion of macro 'spa_pod_parse_object'
+   28 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/raw-utils.h:28:15: note: in expansion of macro 'spa_pod_parse_object'
+   28 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/dsp-utils.h: In function 'spa_format_audio_dsp_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/dsp-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/dsp-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/iec958-utils.h: In function 'spa_format_audio_iec958_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/iec958-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/iec958-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/dsd-utils.h: In function 'spa_format_audio_dsd_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/dsd-utils.h:28:15: note: in expansion of macro 'spa_pod_parse_object'
+   28 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/dsd-utils.h:28:15: note: in expansion of macro 'spa_pod_parse_object'
+   28 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/mp3-utils.h: In function 'spa_format_audio_mp3_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/mp3-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/mp3-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/aac-utils.h: In function 'spa_format_audio_aac_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/aac-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/aac-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/vorbis-utils.h: In function 'spa_format_audio_vorbis_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/vorbis-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/vorbis-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/wma-utils.h: In function 'spa_format_audio_wma_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/wma-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/wma-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/ra-utils.h: In function 'spa_format_audio_ra_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/ra-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/ra-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/amr-utils.h: In function 'spa_format_audio_amr_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/amr-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/amr-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/alac-utils.h: In function 'spa_format_audio_alac_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/alac-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/alac-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/flac-utils.h: In function 'spa_format_audio_flac_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/flac-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/flac-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/ape-utils.h: In function 'spa_format_audio_ape_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/ape-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/audio/ape-utils.h:26:15: note: in expansion of macro 'spa_pod_parse_object'
+   26 |         res = spa_pod_parse_object(format,
+      |               ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h: In function 'spa_latency_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h:83:20: note: in expansion of macro 'spa_pod_parse_object'
+   83 |         if ((res = spa_pod_parse_object(latency,
+      |                    ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h:83:20: note: in expansion of macro 'spa_pod_parse_object'
+   83 |         if ((res = spa_pod_parse_object(latency,
+      |                    ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h: In function 'spa_latency_build':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:634:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  634 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h:100:34: note: in expansion of macro 'spa_pod_builder_add_object'
+  100 |         return (struct spa_pod *)spa_pod_builder_add_object(builder,
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h: In function 'spa_process_latency_parse':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:531:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  531 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:556:9: note: in expansion of macro 'spa_pod_parser_get_object'
+  556 |         spa_pod_parser_get_object(&_p,type,id,##__VA_ARGS__);   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h:116:20: note: in expansion of macro 'spa_pod_parse_object'
+  116 |         if ((res = spa_pod_parse_object(latency,
+      |                    ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/parser.h:553:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  553 | ({                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h:116:20: note: in expansion of macro 'spa_pod_parse_object'
+  116 |         if ((res = spa_pod_parse_object(latency,
+      |                    ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h: In function 'spa_process_latency_build':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:634:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  634 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/param/latency-utils.h:129:34: note: in expansion of macro 'spa_pod_builder_add_object'
+  129 |         return (struct spa_pod *)spa_pod_builder_add_object(builder,
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/array.h: In function 'pw_array_ensure_size':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/defs.h:142:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  142 | ({                                                      \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/array.h:100:25: note: in expansion of macro 'SPA_MAX'
+  100 |                 alloc = SPA_MAX(alloc, arr->extend);
+      |                         ^~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/string.h: In function 'spa_strbuf_append':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/defs.h:136:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  136 | ({                                                      \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/string.h:382:29: note: in expansion of macro 'SPA_MIN'
+  382 |                 buf->pos += SPA_MIN(remain, (size_t)written);
+      |                             ^~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h: In function 'pw_core_errorv':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:320:9: note: in expansion of macro 'spa_interface_call_res'
+  320 |         spa_interface_call_res((struct spa_interface*)o,                \
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:330:41: note: in expansion of macro 'pw_core_method'
+  330 | #define pw_core_error(c,...)            pw_core_method(c,error,0,__VA_ARGS__)
+      |                                         ^~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:341:16: note: in expansion of macro 'pw_core_error'
+  341 |         return pw_core_error(core, id, seq, res, buffer);
+      |                ^~~~~~~~~~~~~
+In file included from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/context.h:48,
+                 from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/protocol.h:26,
+                 from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/proxy.h:90,
+                 from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/client.h:15,
+                 from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/pipewire.h:15,
+                 from ../subprojects/cava-0.9.1/src/input/pipewire.c:8:
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:318:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  318 | ({                                                                      \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:330:41: note: in expansion of macro 'pw_core_method'
+  330 | #define pw_core_error(c,...)            pw_core_method(c,error,0,__VA_ARGS__)
+      |                                         ^~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:341:16: note: in expansion of macro 'pw_core_error'
+  341 |         return pw_core_error(core, id, seq, res, buffer);
+      |                ^~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h: In function 'pw_core_get_registry':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:361:9: note: in expansion of macro 'spa_interface_call_res'
+  361 |         spa_interface_call_res((struct spa_interface*)core,
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h: In function 'pw_core_create_object':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:376:9: note: in expansion of macro 'spa_interface_call_res'
+  376 |         spa_interface_call_res((struct spa_interface*)core,
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h: In function 'pw_registry_bind':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/core.h:517:9: note: in expansion of macro 'spa_interface_call_res'
+  517 |         spa_interface_call_res((struct spa_interface*)registry,
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/log.h: In function 'spa_log_topic_init':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:157:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  157 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:230:9: note: in expansion of macro 'spa_callbacks_call'
+  230 |         spa_callbacks_call(&(iface)->cb,method_type,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/log.h:202:9: note: in expansion of macro 'spa_interface_call'
+  202 |         spa_interface_call(&log->iface, struct spa_log_methods, topic_init, 1, topic);
+      |         ^~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h: In function 'spa_thread_utils_create':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h:65:9: note: in expansion of macro 'spa_interface_call_res'
+   65 |         spa_interface_call_res(&o->iface,
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h: In function 'spa_thread_utils_join':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h:77:9: note: in expansion of macro 'spa_interface_call_res'
+   77 |         spa_interface_call_res(&o->iface,
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h: In function 'spa_thread_utils_get_rt_range':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h:89:9: note: in expansion of macro 'spa_interface_call_res'
+   89 |         spa_interface_call_res(&o->iface,
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h: In function 'spa_thread_utils_acquire_rt':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h:101:9: note: in expansion of macro 'spa_interface_call_res'
+  101 |         spa_interface_call_res(&o->iface,
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h: In function 'spa_thread_utils_drop_rt':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:199:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  199 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/utils/hook.h:243:9: note: in expansion of macro 'spa_callbacks_call_res'
+  243 |         spa_callbacks_call_res(&(iface)->cb,method_type,res,method,vers,##__VA_ARGS__)
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/support/thread.h:113:9: note: in expansion of macro 'spa_interface_call_res'
+  113 |         spa_interface_call_res(&o->iface,
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/pipewire.h:23:
+../subprojects/cava-0.9.1/src/input/pipewire.c: In function 'on_process':
+../subprojects/cava-0.9.1/src/input/pipewire.c:30:21: warning: ISO C does not support the '%m' gnu_printf format [-Wformat=]
+   30 |         pw_log_warn("out of buffers: %m");
+      |                     ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/log.h:121:66: note: in definition of macro 'pw_logt'
+  121 |                 pw_log_logt(lev,topic,__FILE__,__LINE__,__func__,__VA_ARGS__);  \
+      |                                                                  ^~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/log.h:127:29: note: in expansion of macro 'pw_log'
+  127 | #define pw_log_warn(...)    pw_log(SPA_LOG_LEVEL_WARN,__VA_ARGS__)
+      |                             ^~~~~~
+../subprojects/cava-0.9.1/src/input/pipewire.c:30:9: note: in expansion of macro 'pw_log_warn'
+   30 |         pw_log_warn("out of buffers: %m");
+      |         ^~~~~~~~~~~
+../subprojects/cava-0.9.1/src/input/pipewire.c:30:39: note: format string is defined here
+   30 |         pw_log_warn("out of buffers: %m");
+      |                                       ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/log.h:119:1: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  119 | ({                                                                              \
+      | ^
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/log.h:124:25: note: in expansion of macro 'pw_logt'
+  124 | #define pw_log(lev,...) pw_logt(lev,PW_LOG_TOPIC_DEFAULT,__VA_ARGS__)
+      |                         ^~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/pipewire-0.3/pipewire/log.h:127:29: note: in expansion of macro 'pw_log'
+  127 | #define pw_log_warn(...)    pw_log(SPA_LOG_LEVEL_WARN,__VA_ARGS__)
+      |                             ^~~~~~
+../subprojects/cava-0.9.1/src/input/pipewire.c:30:9: note: in expansion of macro 'pw_log_warn'
+   30 |         pw_log_warn("out of buffers: %m");
+      |         ^~~~~~~~~~~
+../subprojects/cava-0.9.1/src/input/pipewire.c: In function 'input_pipewire':
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:52:92: warning: ISO C forbids empty initializer braces before C2X [-Wpedantic]
+   52 | #define SPA_POD_BUILDER_INIT(buffer,size)  ((struct spa_pod_builder){ (buffer), (size), 0, {}, {} })
+      |                                                                                            ^
+../subprojects/cava-0.9.1/src/input/pipewire.c:76:32: note: in expansion of macro 'SPA_POD_BUILDER_INIT'
+   76 |     struct spa_pod_builder b = SPA_POD_BUILDER_INIT(buffer, sizeof(buffer));
+      |                                ^~~~~~~~~~~~~~~~~~~~
+/nix/store/cx31257m71493n90l4ys18iy23spggdy-pipewire-1.0.3-dev/include/spa-0.2/spa/pod/builder.h:52:96: warning: ISO C forbids empty initializer braces before C2X [-Wpedantic]
+   52 | #define SPA_POD_BUILDER_INIT(buffer,size)  ((struct spa_pod_builder){ (buffer), (size), 0, {}, {} })
+      |                                                                                                ^
+../subprojects/cava-0.9.1/src/input/pipewire.c:76:32: note: in expansion of macro 'SPA_POD_BUILDER_INIT'
+   76 |     struct spa_pod_builder b = SPA_POD_BUILDER_INIT(buffer, sizeof(buffer));
+      |                                ^~~~~~~~~~~~~~~~~~~~
+[97/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_.._dbus-status-notifier-watcher.c.o
+[98/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_.._dbus-menu.c.o
+[99/188] Linking target subprojects/cava-0.9.1/libcava.so
+[100/188] Compiling C object protocol/libclient_protos.a.p/meson-generated_.._dbus-status-notifier-item.c.o
+[101/188] Linking static target protocol/libclient_protos.a
+[102/188] Generating symbol file subprojects/cava-0.9.1/libcava.so.p/libcava.so.symbols
+[103/188] Compiling C++ object test/waybar_test.p/config.cpp.o
+[104/188] Compiling C++ object waybar.p/src_AIconLabel.cpp.o
+[105/188] Compiling C++ object test/waybar_test.p/main.cpp.o
+[106/188] Compiling C++ object test/waybar_test.p/SafeSignal.cpp.o
+building '/nix/store/md1na6nzlmxkkb6kivaf94ri8v3x7ghp-fc-cache.drv'...
+[107/188] Compiling C++ object test/waybar_test.p/.._src_config.cpp.o
+[108/188] Compiling C++ object waybar.p/src_AAppIconLabel.cpp.o
+Font directories:
+        /nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37
+        /nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2
+        /nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51
+        /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422
+        /nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002
+        /nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2
+        /nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1
+        /nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4
+        /nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3
+        /nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37
+        /nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503
+        /nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005
+        /nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5
+        /nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04
+        /nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042
+        /nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share
+        /nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share
+        /nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share
+        /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share
+        /nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share
+        /nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share
+        /nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share
+        /nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib
+        /nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib
+        /nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share
+        /nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share
+        /nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share
+        /nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share
+        /nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share
+        /nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share
+        /nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share/fonts
+        /nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share/fonts
+        /nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share/fonts
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/doc
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts
+        /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts
+        /nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share/fonts
+        /nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share/fonts
+        /nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts
+        /nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11
+        /nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11
+        /nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share/fonts
+        /nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share/fonts
+        /nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share/fonts
+        /nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/doc
+        /nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/fonts
+        /nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share/fonts
+        /nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share/fonts
+        /nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share/fonts/truetype
+        /nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share/fonts/truetype
+        /nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share/fonts/ubuntu
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/doc/comic-neue-2.51
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/WOFF
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/WOFF2
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/opentype
+        /nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/truetype
+        /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/eot
+        /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/opentype
+        /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/truetype
+        /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/woff
+        /nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/woff2
+        /nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share/fonts/truetype
+        /nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share/fonts/opentype
+        /nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts/truetype
+        /nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11/fonts
+        /nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11/fonts
+        /nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share/fonts/truetype
+        /nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share/fonts/truetype
+        /nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share/fonts/truetype
+        /nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/doc/liberation-fonts-2.1.5
+        /nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/fonts/truetype
+        /nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share/fonts/opentype
+        /nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share/fonts/noto
+        /nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts/truetype/NerdFonts
+        /nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11/fonts/misc
+        /nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11/fonts/misc
+/nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share/fonts/truetype: skipping, existing cache is valid: 1 fonts, 0 dirs
+/nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share/fonts/truetype: skipping, existing cache is valid: 6 fonts, 0 dirs
+/nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share/fonts/ubuntu: skipping, existing cache is valid: 13 fonts, 0 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share: skipping, existing cache is valid: 0 fonts, 2 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/doc: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/doc/comic-neue-2.51: skipping, existing cache is valid: 0 fonts, 0 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts: skipping, existing cache is valid: 0 fonts, 4 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/WOFF: skipping, existing cache is valid: 12 fonts, 0 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/WOFF2: skipping, existing cache is valid: 12 fonts, 0 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/opentype: skipping, existing cache is valid: 12 fonts, 0 dirs
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/truetype: skipping, existing cache is valid: 12 fonts, 0 dirs
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts: skipping, existing cache is valid: 0 fonts, 5 dirs
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/eot: skipping, existing cache is valid: 0 fonts, 0 dirs
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/opentype: skipping, existing cache is valid: 54 fonts, 0 dirs
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/truetype: skipping, existing cache is valid: 110 fonts, 0 dirs
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/woff: skipping, existing cache is valid: 54 fonts, 0 dirs
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/woff2: skipping, existing cache is valid: 54 fonts, 0 dirs
+/nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share/fonts/truetype: skipping, existing cache is valid: 12 fonts, 0 dirs
+/nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share/fonts/opentype: skipping, existing cache is valid: 3 fonts, 0 dirs
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts/truetype: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts/truetype/NerdFonts: skipping, existing cache is valid: 18 fonts, 0 dirs
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11/fonts/misc: skipping, existing cache is valid: 1 fonts, 0 dirs
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11/fonts/misc: skipping, existing cache is valid: 47 fonts, 0 dirs
+/nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share/fonts/truetype: skipping, existing cache is valid: 22 fonts, 0 dirs
+/nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share/fonts/truetype: skipping, existing cache is valid: 12 fonts, 0 dirs
+/nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share/fonts/truetype: skipping, existing cache is valid: 33 fonts, 0 dirs
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share: skipping, existing cache is valid: 0 fonts, 2 dirs
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/doc: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/doc/liberation-fonts-2.1.5: skipping, existing cache is valid: 0 fonts, 0 dirs
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/fonts/truetype: skipping, existing cache is valid: 12 fonts, 0 dirs
+/nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share/fonts: skipping, existing cache is valid: 2 fonts, 1 dirs
+/nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share/fonts/opentype: skipping, existing cache is valid: 1 fonts, 0 dirs
+/nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share/fonts/noto: skipping, existing cache is valid: 1 fonts, 0 dirs
+/nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share: skipping, looped directory detected
+/nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share: skipping, looped directory detected
+/nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share: skipping, looped directory detected
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share: skipping, looped directory detected
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share: skipping, looped directory detected
+/nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share: skipping, looped directory detected
+/nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share: skipping, looped directory detected
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share: skipping, looped directory detected
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib: skipping, looped directory detected
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib: skipping, looped directory detected
+/nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share: skipping, looped directory detected
+/nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share: skipping, looped directory detected
+/nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share: skipping, looped directory detected
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share: skipping, looped directory detected
+/nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share: skipping, looped directory detected
+/nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share: skipping, looped directory detected
+/nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share/fonts: skipping, looped directory detected
+/nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share/fonts: skipping, looped directory detected
+/nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share/fonts: skipping, looped directory detected
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/doc: skipping, looped directory detected
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts: skipping, looped directory detected
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts: skipping, looped directory detected
+/nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share/fonts: skipping, looped directory detected
+/nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share/fonts: skipping, looped directory detected
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts: skipping, looped directory detected
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11: skipping, looped directory detected
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11: skipping, looped directory detected
+/nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share/fonts: skipping, looped directory detected
+/nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share/fonts: skipping, looped directory detected
+/nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share/fonts: skipping, looped directory detected
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/doc: skipping, looped directory detected
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/fonts: skipping, looped directory detected
+/nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share/fonts: skipping, looped directory detected
+/nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share/fonts: skipping, looped directory detected
+/nix/store/8f3z1q9hcqg07771iwhvr9s0nd3d8kgg-dejavu-fonts-minimal-2.37/share/fonts/truetype: skipping, looped directory detected
+/nix/store/fsc3kxlia7ldxwp5va02961i0c704ys5-fira-code-6.2/share/fonts/truetype: skipping, looped directory detected
+/nix/store/cx77rh63vkk2skgw9lqddxdrm65sddmc-ubuntu-font-family-0.83/share/fonts/ubuntu: skipping, looped directory detected
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/doc/comic-neue-2.51: skipping, looped directory detected
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/WOFF: skipping, looped directory detected
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/WOFF2: skipping, looped directory detected
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/opentype: skipping, looped directory detected
+/nix/store/acihagcb069gymwwkvrf2qaqfxxnmzm4-comic-neue-2.51/share/fonts/truetype: skipping, looped directory detected
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/eot: skipping, looped directory detected
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/opentype: skipping, looped directory detected
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/truetype: skipping, looped directory detected
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/woff: skipping, looped directory detected
+/nix/store/qr8vp326zf5m8mc6lnrzpajia5bwdj44-barlow-1.422/share/fonts/woff2: skipping, looped directory detected
+/nix/store/d5kx8cz0p8qq9rggm1y950ddza87gk2f-zilla-slab-1.002/share/fonts/truetype: skipping, looped directory detected
+/nix/store/bwkkkq0q5xqbybm8wamgncnj2pgdy627-font-awesome-6.4.2/share/fonts/opentype: skipping, looped directory detected
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts/truetype: skipping, looped directory detected
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11/fonts: skipping, looped directory detected
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11/fonts: skipping, looped directory detected
+/nix/store/8q59snaik8q4n70n1dqc15g96saa5zwl-dejavu-fonts-2.37/share/fonts/truetype: skipping, looped directory detected
+/nix/store/6nfqkwm88dk1rr28ywfwg2cl4f7alccn-freefont-ttf-20120503/share/fonts/truetype: skipping, looped directory detected
+/nix/store/x2n86vqsrl64fyyyzwrvd5qfr8h3gv3c-gyre-fonts-2.005/share/fonts/truetype: skipping, looped directory detected
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/doc/liberation-fonts-2.1.5: skipping, looped directory detected
+/nix/store/1vh25fkvhgbf6326axlbm64bdrza5m9i-liberation-fonts-2.1.5/share/fonts/truetype: skipping, looped directory detected
+/nix/store/s2qarjjd538cpx0gb0q8hfy5dc6pv3vp-unifont-15.1.04/share/fonts/opentype: skipping, looped directory detected
+/nix/store/cavv643s3x392naxd9ii0jmgp6v34y03-noto-fonts-color-emoji-2.042/share/fonts/noto: skipping, looped directory detected
+/nix/store/9w9066lsnbcgi6ymfspg9rx5d8is56ak-nerdfonts-3.1.1/share/fonts/truetype/NerdFonts: skipping, looped directory detected
+/nix/store/nawaanbvss8q31g0wk0rfwrqf90bnlyl-font-cursor-misc-1.0.4/lib/X11/fonts/misc: skipping, looped directory detected
+/nix/store/wr1y3nb4r6f4lj75jhnraxaa2p82j8br-font-misc-misc-1.1.3/lib/X11/fonts/misc: skipping, looped directory detected
+/var/cache/fontconfig: not cleaning non-existent cache directory
+/nix/store/wkfnvaqnkp1nbwf3k614iq4n0s2fqdlh-fc-cache: cleaning cache directory
+fc-cache: succeeded
+building '/nix/store/30r6n3xxsiihg7x2bq5xkblxh726jhib-fc-00-nixos-cache.conf.drv'...
+building '/nix/store/1j21iskp3iyfbvq8clpxi6id5v0iixxc-fontconfig-conf.drv'...
+[109/188] Compiling C++ object waybar.p/src_modules_disk.cpp.o
+[110/188] Compiling C++ object waybar.p/src_AModule.cpp.o
+[111/188] Compiling C++ object waybar.p/src_ALabel.cpp.o
+copying path '/nix/store/gniw8l1z4742dsbc93j3lfi9736c6kx9-libreoffice-7.5.9.2' from 'https://cache.nixos.org'...
+[112/188] Compiling C++ object waybar.p/src_modules_temperature.cpp.o
+building '/nix/store/n05g1rmq373pqczi5xb78268f6mlbk6l-fontconfig-etc.drv'...
+[113/188] Compiling C++ object waybar.p/src_modules_image.cpp.o
+[114/188] Compiling C++ object waybar.p/src_modules_load.cpp.o
+[115/188] Compiling C++ object waybar.p/src_ASlider.cpp.o
+created 1 symlinks in user environment
+[116/188] Compiling C++ object waybar.p/src_modules_custom.cpp.o
+[117/188] Compiling C++ object waybar.p/src_util_sanitize_str.cpp.o
+[118/188] Compiling C++ object waybar.p/src_util_ustring_clen.cpp.o
+[119/188] Compiling C++ object test/waybar_test.p/date.cpp.o
+[120/188] Compiling C++ object waybar.p/src_factory.cpp.o
+[121/188] Compiling C++ object waybar.p/src_modules_idle_inhibitor.cpp.o
+[122/188] Compiling C++ object waybar.p/src_main.cpp.o
+[123/188] Compiling C++ object waybar.p/src_util_prepare_for_sleep.cpp.o
+[124/188] Compiling C++ object waybar.p/src_config.cpp.o
+[125/188] Compiling C++ object waybar.p/src_modules_user.cpp.o
+[126/188] Compiling C++ object waybar.p/src_util_gtk_icon.cpp.o
+[127/188] Compiling C++ object waybar.p/src_util_enum.cpp.o
+[128/188] Compiling C++ object waybar.p/src_util_portal.cpp.o
+[129/188] Compiling C++ object waybar.p/src_group.cpp.o
+[130/188] Compiling C++ object waybar.p/src_client.cpp.o
+[131/188] Compiling C++ object waybar.p/src_modules_cpu_frequency_common.cpp.o
+[132/188] Compiling C++ object waybar.p/src_modules_cpu.cpp.o
+[133/188] Compiling C++ object waybar.p/src_modules_cpu_frequency_linux.cpp.o
+[134/188] Compiling C++ object waybar.p/src_util_rewrite_string.cpp.o
+[135/188] Compiling C++ object waybar.p/src_modules_cpu_usage_linux.cpp.o
+[136/188] Compiling C++ object waybar.p/src_modules_sway_ipc_client.cpp.o
+[137/188] Compiling C++ object waybar.p/src_modules_memory_linux.cpp.o
+[138/188] Compiling C++ object waybar.p/src_bar.cpp.o
+[139/188] Compiling C++ object waybar.p/src_modules_cpu_usage_common.cpp.o
+[140/188] Compiling C++ object waybar.p/src_modules_battery.cpp.o
+[141/188] Compiling C++ object waybar.p/src_modules_memory_common.cpp.o
+[142/188] Compiling C++ object waybar.p/src_util_regex_collection.cpp.o
+[143/188] Compiling C++ object waybar.p/src_modules_sway_mode.cpp.o
+[144/188] Compiling C++ object waybar.p/src_modules_sway_bar.cpp.o
+[145/188] Compiling C++ object waybar.p/src_modules_sway_language.cpp.o
+[146/188] Compiling C++ object waybar.p/src_modules_hyprland_backend.cpp.o
+[147/188] Compiling C++ object waybar.p/src_modules_sway_scratchpad.cpp.o
+[148/188] Compiling C++ object waybar.p/src_modules_wlr_workspace_manager_binding.cpp.o
+[149/188] Compiling C++ object waybar.p/src_modules_river_mode.cpp.o
+[150/188] Compiling C++ object waybar.p/src_modules_sway_window.cpp.o
+[151/188] Compiling C++ object waybar.p/src_modules_river_layout.cpp.o
+[152/188] Compiling C++ object waybar.p/src_modules_dwl_tags.cpp.o
+[153/188] Compiling C++ object waybar.p/src_modules_river_window.cpp.o
+[154/188] Compiling C++ object waybar.p/src_modules_river_tags.cpp.o
+[155/188] Compiling C++ object waybar.p/src_modules_sway_workspaces.cpp.o
+[156/188] Compiling C++ object waybar.p/src_modules_hyprland_window.cpp.o
+[157/188] Compiling C++ object waybar.p/src_modules_wlr_workspace_manager.cpp.o
+[158/188] Compiling C++ object waybar.p/src_modules_wlr_taskbar.cpp.o
+[159/188] Compiling C++ object waybar.p/src_modules_upower_upower_tooltip.cpp.o
+[160/188] Compiling C++ object waybar.p/src_modules_hyprland_submap.cpp.o
+[161/188] Compiling C++ object waybar.p/src_modules_upower_upower.cpp.o
+[162/188] Compiling C++ object waybar.p/src_modules_pulseaudio_slider.cpp.o
+[163/188] Compiling C++ object waybar.p/src_util_audio_backend.cpp.o
+[164/188] Compiling C++ object waybar.p/src_modules_pulseaudio.cpp.o
+[165/188] Compiling C++ object waybar.p/src_modules_hyprland_language.cpp.o
+[166/188] Compiling C++ object waybar.p/src_modules_gamemode.cpp.o
+[167/188] Compiling C++ object waybar.p/src_modules_network.cpp.o
+[168/188] Compiling C++ object waybar.p/src_modules_sni_watcher.cpp.o
+[169/188] Compiling C++ object waybar.p/src_modules_jack.cpp.o
+[170/188] Compiling C++ object waybar.p/src_modules_sni_tray.cpp.o
+[171/188] Compiling C++ object waybar.p/src_modules_mpris_mpris.cpp.o
+[172/188] Linking target test/waybar_test
+[173/188] Compiling C++ object waybar.p/src_modules_backlight_slider.cpp.o
+[174/188] Compiling C++ object waybar.p/src_modules_sni_host.cpp.o
+[175/188] Compiling C++ object waybar.p/src_modules_backlight.cpp.o
+[176/188] Compiling C++ object waybar.p/src_util_rfkill.cpp.o
+[177/188] Compiling C++ object waybar.p/src_modules_mpd_state.cpp.o
+[178/188] Compiling C++ object waybar.p/src_modules_keyboard_state.cpp.o
+[179/188] Compiling C++ object waybar.p/src_modules_sndio.cpp.o
+[180/188] Compiling C++ object waybar.p/src_modules_sni_item.cpp.o
+[181/188] Compiling C++ object waybar.p/src_modules_inhibitor.cpp.o
+[182/188] Compiling C++ object waybar.p/src_util_backlight_backend.cpp.o
+[183/188] Compiling C++ object waybar.p/src_modules_mpd_mpd.cpp.o
+[184/188] Compiling C++ object waybar.p/src_modules_cava.cpp.o
+100  133M  100  133M    0     0  2653k      0  0:00:51  0:00:51 --:--:-- 2745k
+building '/nix/store/wij07zim6vc8fncpr9m6qimd84c7pwy2-postman-10.23.5.drv'...
+[185/188] Compiling C++ object waybar.p/src_modules_hyprland_workspaces.cpp.o
+[186/188] Compiling C++ object waybar.p/src_modules_bluetooth.cpp.o
+Running phase: unpackPhase
+unpacking source archive /nix/store/vw1r3gkr425cl4dd14wir56ksg90ayav-postman-10.23.5.tar.gz
+source root is Postman
+setting SOURCE_DATE_EPOCH to timestamp 1708442653 of file Postman/app/vk_swiftshader_icd.json
+Running phase: patchPhase
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+Running phase: buildPhase
+no Makefile or custom buildPhase, doing nothing
+Running phase: glibPreInstallPhase
+Running phase: glibPreInstallPhase
+Running phase: glibPreInstallPhase
+Running phase: installPhase
+Copying '/nix/store/qv56458pz1wd6wl25zdf6kcl9j4s45gr-postman.desktop/share/applications/postman.desktop' into '/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/applications'
+Running phase: glibPreFixupPhase
+Running phase: glibPreFixupPhase
+Running phase: glibPreFixupPhase
+Running phase: gappsWrapperArgsHook
+Running phase: dropIconThemeCache
+Running phase: dropIconThemeCache
+Running phase: dropIconThemeCache
+Running phase: fixupPhase
+[187/188] Compiling C++ object waybar.p/src_modules_clock.cpp.o
+Wrapping program '/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/bin/postman'
+Wrapping link: '/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/bin/.postman-wrapped'
+shrinking RPATHs of ELF executables and libraries in /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/libffmpeg.so
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/libvk_swiftshader.so
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/postman
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/libEGL.so
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/chrome-sandbox
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/chrome_crashpad_handler
+[188/188] Linking target waybar
+buildPhase completed in 36 seconds
+Running phase: checkPhase
+mesonCheckPhase flags: ''
+1/1 waybar        OK              0.01s
+
+Ok:                 1   
+Expected Fail:      0   
+Fail:               0   
+Unexpected Pass:    0   
+Skipped:            0   
+Timeout:            0   
+
+Full log written to /build/source/build/meson-logs/testlog.txt
+Running phase: glibPreInstallPhase
+Running phase: glibPreInstallPhase
+Running phase: glibPreInstallPhase
+Running phase: installPhase
+mesonInstallPhase flags: ''
+Installing subprojects/cava-0.9.1/libcava.so to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/lib
+Installing waybar to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/bin
+Installing waybar.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-backlight.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-backlight-slider.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-battery.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-cava.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-clock.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-cpu.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-custom.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-disk.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-gamemode.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-idle-inhibitor.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-image.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-keyboard-state.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-memory.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-mpd.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-mpris.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-network.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-pulseaudio.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-pulseaudio-slider.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-river-mode.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-river-tags.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-river-window.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-river-layout.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-sway-language.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-sway-mode.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-sway-scratchpad.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-sway-window.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-sway-workspaces.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-temperature.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-tray.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-states.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-wlr-taskbar.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-wlr-workspaces.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-bluetooth.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-sndio.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-upower.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-wireplumber.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-dwl-tags.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing waybar-inhibitor.5 to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/man5
+Installing /build/source/subprojects/cava-0.9.1/include/cava/cavacore.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava
+Installing /build/source/subprojects/cava-0.9.1/include/cava/common.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava
+Installing /build/source/subprojects/cava-0.9.1/include/cava/config.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava
+Installing /build/source/subprojects/cava-0.9.1/include/cava/debug.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava
+Installing /build/source/subprojects/cava-0.9.1/include/cava/util.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava
+Installing /build/source/subprojects/cava-0.9.1/include/cava/input/common.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava/input
+Installing /build/source/subprojects/cava-0.9.1/include/cava/output/common.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava/output
+Installing /build/source/subprojects/cava-0.9.1/include/cava/output/terminal_noncurses.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava/output
+Installing /build/source/subprojects/cava-0.9.1/include/cava/output/raw.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava/output
+Installing /build/source/subprojects/cava-0.9.1/include/cava/output/noritake.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava/output
+Installing /build/source/subprojects/cava-0.9.1/include/cava/output/terminal_ncurses.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava/output
+Installing /build/source/subprojects/cava-0.9.1/include/cava/output/sdl_cava.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava/output
+Installing /build/source/subprojects/cava-0.9.1/include/cava/output/sdl_glsl.h to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/include/cava/output
+Installing /build/source/build/meson-private/cava.pc to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/lib/pkgconfig
+Installing /build/source/./resources/config to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/etc/xdg/waybar
+Installing /build/source/./resources/style.css to /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/etc/xdg/waybar
+Running phase: glibPreFixupPhase
+Running phase: glibPreFixupPhase
+Running phase: glibPreFixupPhase
+Running phase: gappsWrapperArgsHook
+Running phase: dropIconThemeCache
+Running phase: dropIconThemeCache
+Running phase: dropIconThemeCache
+Running phase: fixupPhase
+Wrapping program '/nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/bin/waybar'
+shrinking RPATHs of ELF executables and libraries in /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24
+shrinking /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/lib/libcava.so
+shrinking /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/bin/waybar
+shrinking /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/bin/.waybar-wrapped
+checking for references to /build/ in /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24...
+gzipping man pages under /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/share/man/
+patching script interpreter paths in /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24
+stripping (with command strip and flags -S -p) in  /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/lib /nix/store/v47iz0rlxdp5xn8v6b5gw4wgn3zk9bz1-waybar-0.9.24/bin
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/keytar/build/Release/obj.target/keytar/src/main.o
+patchelf: wrong ELF type
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/keytar/build/Release/obj.target/keytar/src/keytar_posix.o
+patchelf: wrong ELF type
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/keytar/build/Release/obj.target/keytar/src/async.o
+patchelf: wrong ELF type
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/keytar/build/Release/obj.target/keytar.node
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/keytar/build/Release/keytar.node
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/libGLESv2.so
+shrinking /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/libvulkan.so.1
+checking for references to /build/ in /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5...
+patchelf: wrong ELF type
+patchelf: wrong ELF type
+patchelf: wrong ELF type
+patching script interpreter paths in /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5
+/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/@postman/hermes/src/swap_and_relaunch.sh: interpreter directive changed from "#!/bin/bash" to "/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/bash"
+/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/@postman/hermes/tests/assets/relaunchers/relauncher-shell-error: interpreter directive changed from "#!/bin/bash" to "/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/bash"
+/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/@postman/hermes/tests/assets/relaunchers/relauncher-shell: interpreter directive changed from "#!/bin/bash" to "/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/bash"
+/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/@postman/hermes/tests/assets/sample-application/sample-1234/sample: interpreter directive changed from "#!/bin/bash" to "/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/bash"
+/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/@postman/hermes/tests/assets/sample-application/app/sample: interpreter directive changed from "#!/bin/bash" to "/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/bash"
+/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/@postman/hermes/tests/unit/bash/test.sh: interpreter directive changed from "#!/bin/bash" to "/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/bash"
+/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman/resources/app/node_modules/electron-json-storage/stress/start.sh: interpreter directive changed from "#!/bin/sh" to "/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/sh"
+stripping (with command strip and flags -S -p) in  /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/bin
+/nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/postman /build/Postman
+/build/Postman
+rewriting symlink /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/bin/..postman-wrapped-wrapped to be relative to /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5
+rewriting symlink /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/icons/hicolor/128x128/apps/postman.png to be relative to /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5
+rewriting symlink /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5/share/icons/postman.png to be relative to /nix/store/xmj37rpwrmh9ajpmxwbcijq4jqs2dplk-postman-10.23.5
+copying path '/nix/store/f55zv2ziqs897idqnxvwndfj7yb2n769-libreoffice-7.5.9.2-wrapped' from 'https://cache.nixos.org'...
+building '/nix/store/9w2w7f3h666wg2mqyww6ndzg6rwrwd0x-system-path.drv'...
+warning: creating dangling symlink `/nix/store/k6rn8x7yq2sy3j2vmh3922pms76dj3p9-system-path//share/doc/mullvad-browser' -> `/nix/store/07swbm515l67ii8z45xzn9x80zahshc5-mullvad-browser-13.0.10/share/doc/mullvad-browser' -> `../mullvad-browser/Data/Docs'
+warning: collision between `/nix/store/b5zlnvfsgkpn7wx98920z18pgzg7zb7k-mullvad-2023.6/bin/.mullvad-daemon-wrapped' and `/nix/store/bmip3xgnrg68f19jnkck0nhzjssn396v-mullvad-vpn-2023.6/bin/.mullvad-daemon-wrapped'
+warning: collision between `/nix/store/b5zlnvfsgkpn7wx98920z18pgzg7zb7k-mullvad-2023.6/bin/mullvad-daemon' and `/nix/store/bmip3xgnrg68f19jnkck0nhzjssn396v-mullvad-vpn-2023.6/bin/mullvad-daemon'
+warning: collision between `/nix/store/b5zlnvfsgkpn7wx98920z18pgzg7zb7k-mullvad-2023.6/bin/mullvad' and `/nix/store/bmip3xgnrg68f19jnkck0nhzjssn396v-mullvad-vpn-2023.6/bin/mullvad'
+warning: collision between `/nix/store/b5zlnvfsgkpn7wx98920z18pgzg7zb7k-mullvad-2023.6/bin/mullvad-problem-report' and `/nix/store/bmip3xgnrg68f19jnkck0nhzjssn396v-mullvad-vpn-2023.6/bin/mullvad-problem-report'
+warning: collision between `/nix/store/b5zlnvfsgkpn7wx98920z18pgzg7zb7k-mullvad-2023.6/bin/mullvad-exclude' and `/nix/store/bmip3xgnrg68f19jnkck0nhzjssn396v-mullvad-vpn-2023.6/bin/mullvad-exclude'
+warning: collision between `/nix/store/kkss10l34c649i23q9fibcbzdf0r5v5b-xwayland-23.2.4/lib/xorg/protocol.txt' and `/nix/store/rh9iw6jw9gbz9v00ryzgx2anmxkyv7zr-xorg-server-21.1.11/lib/xorg/protocol.txt'
+warning: collision between `/nix/store/kkss10l34c649i23q9fibcbzdf0r5v5b-xwayland-23.2.4/share/man/man1/Xserver.1.gz' and `/nix/store/rh9iw6jw9gbz9v00ryzgx2anmxkyv7zr-xorg-server-21.1.11/share/man/man1/Xserver.1.gz'
+warning: collision between `/nix/store/3hsjbv21j30vv3vvs2pdwzr2mzdpjwva-gamescope/bin/gamescope' and `/nix/store/s1bbvn9bc84dbi44kbgsnh7gw64pm42h-gamescope-3.14.2/bin/gamescope'
+created 9437 symlinks in user environment
+gtk-update-icon-cache: Cache file created successfully.
+gtk-update-icon-cache: Cache file created successfully.
+building '/nix/store/p8gz4jbwmnp7wmssgr3nih2604scdg3j-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/bsah7f4c937mqjs25gsf9b07gz8z2v36-dbus-1.drv'...
+building '/nix/store/wh909cxpf46c8md1i22n4y8sfwm98164-unit-polkit.service.drv'...
+building '/nix/store/rb0ic07qqi6imyp65vkx0f96arb4zjmy-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/1c6jxhyivnnnh4459i0hl9fq1iamd84k-unit-dbus.service.drv'...
+building '/nix/store/mc41zswggmfcmm4q1imygv5khfsll2n6-unit-dbus.service.drv'...
+building '/nix/store/i77494j3mxdnp0y7cqd8srkfz29462ln-system-units.drv'...
+building '/nix/store/xra7abpddd06zx9aww6xqz9vky049jzp-user-units.drv'...
+building '/nix/store/ki78ihaqp3mzq58df70cyxnrljzrbjd6-etc.drv'...
+building '/nix/store/7163339aankjjlkky4f9llnv604rhv3v-nixos-system-agamemnon-24.05pre596954.d691274a972b.drv'...
