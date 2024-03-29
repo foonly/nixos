@@ -30,6 +30,19 @@
       enable = true;
     };
 
+    programs.foot = {
+      enable = true;
+      server.enable = true;
+      settings = {
+        main = {
+          term = "xterm-256color";
+
+          font = "Fira Code:size=14";
+          dpi-aware = "yes";
+        };
+      };
+    };
+
     services.ssh-agent.enable = true;
 
     home.pointerCursor = {
