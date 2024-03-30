@@ -37,7 +37,7 @@
         main = {
           term = "xterm-256color";
 
-          font = "Comic Code:size=14";
+          font = "Comic Code:size=12";
           dpi-aware = "yes";
         };
       };
