@@ -69,7 +69,7 @@
       };
 
       font = {
-        name = "Sans";
+        name = "Barlow";
         size = 11;
       };
     };
