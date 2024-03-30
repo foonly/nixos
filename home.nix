@@ -28,6 +28,7 @@
 
     programs.starship = {
       enable = true;
+      enableZshIntegration = true;
     };
 
     programs.foot = {
