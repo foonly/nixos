@@ -13,6 +13,7 @@
     autosuggestions.enable = true;
     syntaxHighlighting.enable = true;
   };
+  users.defaultUserShell = pkgs.zsh;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
