@@ -9,7 +9,7 @@
   home-manager.users.niklas = {pkgs, ...}: {
     home.stateVersion = "23.11";
 
-    programs.bash.enable = true;
+    programs.zsh.enable = true;
 
     home.shellAliases = {
       pn = "pnpm";

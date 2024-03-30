@@ -6,8 +6,6 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  programs.ssh.startAgent = true;
-
   security.polkit.enable = true;
 
   # List packages installed in system profile. To search, run:
