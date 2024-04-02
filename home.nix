@@ -39,10 +39,9 @@
           term = "xterm-256color";
 
           font = "Comic Code:size=12";
-          dpi-aware = "yes";
         };
         colors = {
-          alpha = 0.6;
+          alpha = 0.7;
         };
       };
     };
