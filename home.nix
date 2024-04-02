@@ -41,6 +41,9 @@
           font = "Comic Code:size=12";
           dpi-aware = "yes";
         };
+        colors = {
+          alpha = 0.6;
+        };
       };
     };
 
