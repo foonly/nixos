@@ -32,6 +32,7 @@
     btop
     neofetch
     gnupg1
+    cryptsetup
     xorg.xeyes
   ];
 }
