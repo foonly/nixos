@@ -9,5 +9,6 @@
     xarchiver
     libreoffice
     syncthing
+    filezilla
   ];
 }

@@ -29,6 +29,8 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.systemd-boot.memtest86.enable = true;
 
+  boot.initrd.luks.devices."swap".device = "/dev/disk/by-uuid/eb84551e-fbd3-4d24-9dbf-c924234f1f4a";
+
   networking.hostName = "ganymede"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
