@@ -29,9 +29,6 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.systemd-boot.memtest86.enable = true;
 
-  boot.plymouth.enable = true;
-  boot.plymouth.theme = "breeze";
-
   networking.hostName = "ganymede"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
