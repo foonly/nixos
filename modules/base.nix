@@ -6,6 +6,7 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   security.polkit.enable = true;
+  security.pam.services.greetd.gnupg.enable = true;
 
   programs.zsh = {
     enable = true;
