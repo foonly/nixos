@@ -41,6 +41,7 @@
     btop
     neofetch
     cryptsetup
+    bitwarden
     xorg.xeyes
   ];
 }
