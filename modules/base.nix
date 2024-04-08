@@ -43,5 +43,6 @@
     cryptsetup
     bitwarden
     xorg.xeyes
+    kdePackages.kwallet
   ];
 }
