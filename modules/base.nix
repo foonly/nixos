@@ -6,7 +6,9 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   security.polkit.enable = true;
-  security.pam.services.greetd.gnupg.enable = true;
+  #security.pam.enableSSHAgentAuth = true;
+  security.pam.services.greetd.sshAgentAuth = true;
+  programs.ssh.startAgent = true;
 
   programs.zsh = {
     enable = true;

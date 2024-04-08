@@ -46,12 +46,6 @@
       };
     };
 
-    programs.gpg.enable = true;
-    services.gpg-agent = {
-      enable = true;
-      enableSshSupport = true;
-    };
-
     home.pointerCursor = {
       gtk.enable = true;
       package = pkgs.bibata-cursors;
