@@ -10,5 +10,6 @@
     telegram-desktop
     whatsapp-for-linux
     slack
+    element-desktop-wayland
   ];
 }

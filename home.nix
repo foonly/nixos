@@ -3,11 +3,12 @@
   pkgs,
   ...
 }: {
+  home-manager.backupFileExtension = "hm-backup";
   home-manager.useUserPackages = true;
   home-manager.useGlobalPkgs = true;
-
+  
   home-manager.users.niklas = {pkgs, ...}: {
-    home.stateVersion = "23.11";
+    home.stateVersion = "24.11";
 
     programs.zsh.enable = true;
 
@@ -72,12 +73,7 @@
     };
 
     home.packages = with pkgs; [
-      eza
       dig
-      librewolf
-      thunderbird
-      vivaldi
-      youtube-tui
     ];
   };
 }

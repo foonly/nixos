@@ -8,6 +8,6 @@
   environment.systemPackages = with pkgs; [
     mullvad-vpn
     mullvad-browser
-    transmission-gtk
+	transmission_3-gtk
   ];
 }

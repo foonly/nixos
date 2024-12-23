@@ -30,18 +30,17 @@
     micro
     vim
     wget
-    aw-server-rust
-    aw-qt
-    wezterm
     kitty
     killall
     whois
     alejandra
     libnotify
     btop
-    neofetch
+    fastfetch
     cryptsetup
     bitwarden
+    librewolf
+    eza
     xorg.xeyes
   ];
 }
